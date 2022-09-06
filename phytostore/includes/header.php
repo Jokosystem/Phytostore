@@ -35,42 +35,68 @@ $pdo = $database->connection();
 
             <a href="index.php">
                 <div class='at-container'>
+                    <!--animation logo -->
                     <div class='at-item'>
                     </div>
                 </div>
             </a>
 
 
-            <ul class="list-none flex gap-6 justify-between items-center -m-20">
+            <ul class="list-none flex gap-6 justify-between items-center -ml-20">
 
                 <li>
-                    <a class="text-gray-600 hover:text-gray-700" href="create.php">
-                        <i class="fa-solid fa-circle-plus mr-2"></i>Ajouter un produit
-                    </a>
-                </li>
-
-                <li>
-                    <a class="text-gray-600 hover:text-gray-700" href="basket.php">
-                        <i class="fa-solid fa-cart-shopping mr-2"></i> Mon panier
-                    </a>
-                </li>
-                <li>
-                    <form action="logout.php" class="ml-6" method="post">
-                        <button class="text-gray-400 hover:text-gray-600">
-                            <i class="fa-solid fa-power-off fa-xl"></i>
-                        </button>
-                    </form>
+                    <div class='at-container6'>
+                        <!-- animation -->
+                        <h1 class='at-item6'>
+                            <a class="text-green-600 hover:text-red-700" href="create.php">
+                                <i class="fa-solid fa-circle-plus mr-2"></i>Ajouter un produit
+                            </a>
+                        </h1>
+                    </div>
                 </li>
 
                 <li>
-                    <a class="text-gray-600 hover:text-gray-700" href="login.php">
-                        <i class="fa-solid fa-arrow-right-to-bracket mr-2"></i> Se connecter
-                    </a>
+                    <div class='at-container6'>
+                        <!-- animation slide -->
+                        <h1 class='at-item6'>
+                            <a class="text-green-600 hover:text-red-700" href="basket.php">
+                                <i class="fa-solid fa-cart-shopping mr-2"></i> Mon panier
+                            </a>
+                        </h1>
+                    </div>
                 </li>
                 <li>
-                    <a class="text-gray-600 hover:text-gray-700" href="register.php">
-                        <i class="fa-solid fa-inbox mr-2"></i> S'enregistrer
-                    </a>
+                    <div class='at-container6'>
+                        <!-- animation slide -->
+                        <h1 class='at-item6'>
+                            <form action="logout.php" class="ml-6" method="post">
+                                <button class="text-green-600 hover:text-red-700">
+                                    <i class="fa-solid fa-power-off fa-xl"></i>
+                                </button>
+                            </form>
+                        </h1>
+                    </div>
+                </li>
+
+                <li>
+                    <div class='at-container6'>
+                        <!-- animation slide -->
+                        <h1 class='at-item6'>
+                            <a class="text-green-600 hover:text-red-700" href="login.php">
+                                <i class="fa-solid fa-arrow-right-to-bracket mr-2"></i> Se connecter
+                            </a>
+                        </h1>
+                    </div>
+                </li>
+                <li>
+                    <div class='at-container6'>
+                        <!-- animation slide -->
+                        <h1 class='at-item6'>
+                            <a class="text-green-600 hover:text-red-700 mr-20" href="register.php">
+                                <i class="fa-solid fa-inbox mr-2"></i> S'enregistrer
+                            </a>
+                        </h1>
+                    </div>
                 </li>
 
             </ul>

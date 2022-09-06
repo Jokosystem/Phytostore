@@ -94,7 +94,7 @@ div.at-container {
     margin-bottom: 50px;
     background-color:white;
     animation-name: slide-top;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-timing-function: ease;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -139,5 +139,121 @@ div.at-container {
     }
     100%{
       transform: translateY(-100px);
+    }
+  }
+
+  /* animation "s'enregistrer"*/
+  div.at-container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .at-item4 {
+    animation-name: shake-vertical;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    /* shorthand 
+    animation: shake-vertical 1s ease 0s 1 normal both;
+    */ 
+  }
+  @keyframes shake-vertical {
+    0%{
+      transform: translateY(0);
+    }
+    10%{
+      transform: translateY(-8px);
+    }
+    20%{
+      transform: translateY(8px);
+    }
+    30%{
+      transform: translateY(-8px);
+    }
+    40%{
+      transform: translateY(8px);
+    }
+    50%{
+      transform: translateY(-8px);
+    }
+    60%{
+      transform: translateY(8px);
+    }
+    70%{
+      transform: translateY(-8px);
+    }
+    80%{
+      transform: translateY(6.4px);
+    }
+    90%{
+      transform: translateY(-6.4px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+
+
+  /*animation "logout"*/
+  div.at-container5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .at-item5 {
+    animation-name: rotate-in-center;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    /* shorthand 
+    animation: rotate-in-center 1s ease 0s 1 normal both;
+    */ 
+  }
+  @keyframes rotate-in-center {
+    0%{
+      transform: rotate(-360deg);
+      opacity: 0;
+    }
+    100%{
+      transform: rotate(0);
+      opacity: 1;
+    }
+  }
+
+  div.at-container6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .at-item6 {
+    color: #3079ed;
+    animation-name: tilt-in-right-1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    /* shorthand 
+    animation: tilt-in-right-1 1s ease 0s 1 normal forwards;
+    */ 
+  }
+  @keyframes tilt-in-right-1 {
+    0%{
+      transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+      opacity: 0;
+    }
+    100%{
+      transform: rotateX(0deg) translateX(0) skewX(0deg);
+      opacity: 1;
     }
   }
