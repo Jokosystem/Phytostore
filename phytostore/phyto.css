@@ -1,3 +1,7 @@
+/* body {
+  background-image: url(./images/anim.gif);
+
+} */
 #navcategory {
     background-color: #046A1B;
 }
@@ -50,7 +54,7 @@ div.at-container {
     height: 100%;
   }
   .at-item {
-    width: 410px;
+    width: 600px;
     height: 100px;
     background:url(./images/LOGO_phyto_bcd.png) no-repeat;
     animation-name: tilt-in-right-1;
@@ -78,7 +82,7 @@ div.at-container {
   
 
 
-
+/* animation cards*/
   div.at-container2 {
     display: flex;
     align-items: center;
@@ -143,60 +147,7 @@ div.at-container {
     }
   }
 
-  /* animation "shake vertical"*/
-  div.at-container4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
-  .at-item4 {
-    animation-name: shake-vertical;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: both;
-    /* shorthand 
-    animation: shake-vertical 1s ease 0s 1 normal both;
-    */ 
-  }
-  @keyframes shake-vertical {
-    0%{
-      transform: translateY(0);
-    }
-    10%{
-      transform: translateY(-8px);
-    }
-    20%{
-      transform: translateY(8px);
-    }
-    30%{
-      transform: translateY(-8px);
-    }
-    40%{
-      transform: translateY(8px);
-    }
-    50%{
-      transform: translateY(-8px);
-    }
-    60%{
-      transform: translateY(8px);
-    }
-    70%{
-      transform: translateY(-8px);
-    }
-    80%{
-      transform: translateY(6.4px);
-    }
-    90%{
-      transform: translateY(-6.4px);
-    }
-    100%{
-      transform: translateY(0);
-    }
-  }
+
 
 
   /*animation "rotation"*/
@@ -259,3 +210,193 @@ div.at-container {
       opacity: 1;
     }
   }
+
+  /*animtion bounce*/
+  div.at-container9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .at-item9 {
+    
+    
+    animation-name: bounce-in-zoomin;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    /* shorthand 
+    animation: bounce-in-zoomin 1s ease 0s 1 normal none;
+    */ 
+  }
+  @keyframes bounce-in-zoomin {
+    0%{
+      transform: scale(7);
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    35%{
+      transform: scale(1);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55%{
+      transform: scale(1.5);
+      animation-timing-function: ease-in;
+    }
+    70%{
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
+    80%{
+      transform: scale(1.24);
+      animation-timing-function: ease-in;
+    }
+    90%{
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
+    95%{
+      transform: scale(1.04);
+      animation-timing-function: ease-in;
+    }
+    100%{
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
+  }
+
+
+/* css page besoins*/
+/*animation "rotation"*/
+div.at-container5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.at-item5 {
+  animation-name: rotate-in-center;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  /* shorthand 
+    animation: rotate-in-center 1s ease 0s 1 normal both;
+    */
+}
+
+@keyframes rotate-in-center {
+  0% {
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+/* cover*/
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/phytobasket.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: table;
+}
+
+.container2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/tablephyto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: table;
+}
+
+.container3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/woodphyto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: table;
+}
+
+#link {
+  font-size: 5rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+
+/* a {
+  text-decoration: none;
+  color: white;
+  
+} */
+
+/* div {
+  background-color: white;
+} */
+div.at-container10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.at-item10 {
+  width: 100px;
+  height: 100px;
+  
+  animation-name: puff-in-horizontal;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  /* shorthand 
+  animation: puff-in-horizontal 1s ease 0s 1 normal none;
+  */ 
+}
+@keyframes puff-in-horizontal {
+  0%{
+    transform: scaleX(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100%{
+    transform: scaleX(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+#carou {
+  box-shadow: grey 6px 6px 6px 0px;
+}

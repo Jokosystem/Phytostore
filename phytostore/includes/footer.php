@@ -1,7 +1,10 @@
+
 </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 <footer>
-    <div class="w-1/3" id="footer1">
+    <div class="w-1/3 mt-20" id="footer1">
         <div>
             <h2 class="text-left text-white text-xl ml-20 mt-5">Suivez-nous</h2>
             <br />
