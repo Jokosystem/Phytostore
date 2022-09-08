@@ -1,5 +1,8 @@
-<div id="carou">
-    <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-light text-2xl mb-20  relative" data-bs-ride="carousel">
+<h2 class="text-center text-font-italic text-3xl text-black">Nos Partenaires</h2>
+<br />
+<hr>
+<div id="carou_foot">
+    <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-light text-2xl -mb-10 mt-10  relative" data-bs-ride="carousel">
         <!-- Indicators -->
         <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
             <button data-bs-target="#carouselDarkVariant" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -10,18 +13,20 @@
         <!-- Inner -->
         <div class="carousel-inner relative w-full overflow-hidden">
             <!-- Single item -->
-            <div class="carousel-item active relative float-left w-full">
-                <img src="./images/PhytoBCD_Berkin.png" class="flex w-full" alt="Motorbike Smoke" />
-                <div class="carousel-caption hidden md:block absolute text-center">
-                    <h5 class="text-xl"></h5>
-                    <p</p>
-                </div>
+            <div class="carousel-item active relative w-full">
+                
+                    <a href=""><img src="./images/arko_ban.png" class="flex w-full" alt="Motorbike Smoke"/></a>
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                        <h5 class="text-xl"></h5>
+                        <p></p>
+                    
+                    </div>
             </div>
 
             <!-- Single item -->
-            <div class="carousel-item relative float-left w-full">
-                <img src="./images/Les_remèdes_naturels_PhytoBCD.png
-" class="flex w-full" alt="Mountaintop" />
+            <div class="carousel-item relative w-full">
+                <a href=""><img src="./images/vidal_ban.png
+" class="flex w-full" alt="Mountaintop" /></a>
                 <div class="carousel-caption hidden md:block absolute text-center">
                     <h5 class="text-xl"></h5>
                     <p></p>
@@ -29,12 +34,12 @@
             </div>
 
             <!-- Single item -->
-            <div class="carousel-item relative float-left w-full">
-                <img src="./images/phytoBcd_Driss.png
-" class="flex w-full" alt="Woman Reading a Book" />
+            <div class="carousel-item relative w-full">
+                <a href=""><img src="./images/naturea_ban.png
+" class="flex w-full" alt="Woman Reading a Book" /></a>
                 <div class="carousel-caption hidden md:block absolute text-center">
                     <h5 class="text-xl"></h5>
-                    <p</p>
+                    <p></p>
                 </div>
             </div>
         </div>
@@ -51,4 +56,3 @@
         </button>
     </div>
 </div>
-<br />

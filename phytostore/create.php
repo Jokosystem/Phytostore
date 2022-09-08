@@ -123,6 +123,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
 
 
 <?php
-
+require_once "./components/caroussel_footer.php";
 require_once "./includes/footer.php";
 ?>

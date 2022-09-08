@@ -1,6 +1,5 @@
 /* body {
   background-image: url(./images/anim.gif);
-
 } */
 #navcategory {
     background-color: #046A1B;
@@ -398,5 +397,9 @@ div.at-container10 {
 }
 
 #carou {
+  box-shadow: grey 6px 6px 6px 0px;
+}
+
+#carou_foot {
   box-shadow: grey 6px 6px 6px 0px;
 }
