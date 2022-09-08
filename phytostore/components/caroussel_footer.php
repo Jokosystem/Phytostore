@@ -14,19 +14,18 @@
         <div class="carousel-inner relative w-full overflow-hidden">
             <!-- Single item -->
             <div class="carousel-item active relative w-full">
-                
-                    <a href=""><img src="./images/arko_ban.png" class="flex w-full" alt="Motorbike Smoke"/></a>
-                    <div class="carousel-caption hidden md:block absolute text-center">
-                        <h5 class="text-xl"></h5>
-                        <p></p>
-                    
-                    </div>
+
+                <a href="https://fr.arkopharma.com/"><img src="./images/arko_ban.png" class="flex w-full" alt="arko_ban" /></a>
+                <div class="carousel-caption hidden md:block absolute text-center">
+                    <h5 class="text-xl"></h5>
+                    <p></p>
+
+                </div>
             </div>
 
             <!-- Single item -->
             <div class="carousel-item relative w-full">
-                <a href=""><img src="./images/vidal_ban.png
-" class="flex w-full" alt="Mountaintop" /></a>
+                <a href="https://www.vidal.fr/"><img src="./images/vidal_ban.png" class="flex w-full" alt="vidal_ban" /></a>
                 <div class="carousel-caption hidden md:block absolute text-center">
                     <h5 class="text-xl"></h5>
                     <p></p>
@@ -35,8 +34,7 @@
 
             <!-- Single item -->
             <div class="carousel-item relative w-full">
-                <a href=""><img src="./images/naturea_ban.png
-" class="flex w-full" alt="Woman Reading a Book" /></a>
+                <a href="https://www.naturactive.fr/"><img src="./images/naturea_ban.png" class="flex w-full" alt="naturea_ban" /></a>
                 <div class="carousel-caption hidden md:block absolute text-center">
                     <h5 class="text-xl"></h5>
                     <p></p>
