@@ -49,7 +49,7 @@
                 <h2 class="text-white text-xl -mr-10">Politique de Confidentialité</h2>
             </a>
             <br />
-            <a href="">
+            <a href="cgu.php">
                 <h2 class="text-white text-xl -mr-10">Conditions générales d'utilisation</h2>
             </a>
         </div>
