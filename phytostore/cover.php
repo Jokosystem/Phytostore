@@ -16,14 +16,15 @@
     <title>Phytostore_cover</title>
 </head>
 <body>
+    
     <div class="container1">
-        <h1 id="link" class="text-white"><a class="text-decoration-none" href="index.php">Accueil</a></h1>
+        <h1 id="link" class="text-white"><a class="text-decoration-none" href="index.php">Accueil<br />Phytostore</a></h1>
     </div>
     <div class="container2">
-        <h1 id="link" class="text-white"><a class="text-decoration-none" href="">S'inscrire</a></h1>
+        <h1 id="link" class="text-white"><a class="text-decoration-none" href="">Nouveau ?<br />S'inscrire</a></h1>
     </div>
     <div class="container3">
-        <h1 id="link" class="text-white"><a class="text-decoration-none" href="">S'identifier</a></h1>
+        <h1 id="link" class="text-white"><a class="text-decoration-none" href="">Déjà inscrit ?<br />S'identifier</a></h1>
     </div>
 </body>
 </html>

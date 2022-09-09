@@ -46,8 +46,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
     $stmt->bindParam(':plante', $plante);
     $stmt->bindParam(':effet', $effet);
     $stmt->bindParam(':image', $image);
-    $stmt->bindParam(":price", $price);
-    $stmt->bindParam(":description", $description);
+    $stmt->bindParam(':price', $price);
+    $stmt->bindParam(':description', $description);
     if ($stmt->execute()) {
       // si la plante est correctement sauvegarder en base de donnée
       // nous faisons une redirection en page d'acceuil

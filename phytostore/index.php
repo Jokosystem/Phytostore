@@ -1,11 +1,11 @@
 <?php
 require_once "./src/Phyto.php";
-
+require_once "./includes/header.php";
 // nous allons intancier notre méthode
 $plant = new Phyto();
 
 
-require_once "./includes/header.php";
+
 
 $pdo = new PDO("mysql:host=localhost;dbname=phytostore;charset=utf8", "root", "", [
   PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION

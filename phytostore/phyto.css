@@ -1,6 +1,7 @@
 /* body {
   background-image: url(./images/anim.gif);
 } */
+
 #navcategory {
     background-color: #046A1B;
 }
@@ -78,7 +79,6 @@ div.at-container {
       opacity: 1;
     }
   }
-  
 
 
 /* animation cards*/
@@ -146,38 +146,6 @@ div.at-container {
     }
   }
 
-
-
-
-  /*animation "rotation"*/
-  div.at-container5 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
-  .at-item5 {
-    animation-name: rotate-in-center;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    /* shorthand 
-    animation: rotate-in-center 1s ease 0s 1 normal both;
-    */ 
-  }
-  @keyframes rotate-in-center {
-    0%{
-      transform: rotate(-360deg);
-      opacity: 0;
-    }
-    100%{
-      transform: rotate(0);
-      opacity: 1;
-    }
-  }
 
   /* animation nav*/
   div.at-container6 {
@@ -269,40 +237,6 @@ div.at-container {
   }
 
 
-/* css page besoins*/
-/*animation "rotation"*/
-div.at-container5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.at-item5 {
-  animation-name: rotate-in-center;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  /* shorthand 
-    animation: rotate-in-center 1s ease 0s 1 normal both;
-    */
-}
-
-@keyframes rotate-in-center {
-  0% {
-    transform: rotate(-360deg);
-    opacity: 0;
-  }
-
-  100% {
-    transform: rotate(0);
-    opacity: 1;
-  }
-}
-
 /* cover*/
 *
 {
@@ -353,49 +287,7 @@ div.at-container5 {
   
 }
 
-/* a {
-  text-decoration: none;
-  color: white;
-  
-} */
-
-/* div {
-  background-color: white;
-} */
-div.at-container10 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-.at-item10 {
-  width: 100px;
-  height: 100px;
-  
-  animation-name: puff-in-horizontal;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  /* shorthand 
-  animation: puff-in-horizontal 1s ease 0s 1 normal none;
-  */ 
-}
-@keyframes puff-in-horizontal {
-  0%{
-    transform: scaleX(2);
-    filter: blur(4px);
-    opacity: 0;
-  }
-  100%{
-    transform: scaleX(1);
-    filter: blur(0);
-    opacity: 1;
-  }
-}
-
+/*carousels*/
 #carou {
   box-shadow: grey 6px 6px 6px 0px;
 }

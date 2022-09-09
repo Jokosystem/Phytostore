@@ -110,7 +110,7 @@ $pdo = $database->connection();
         <div class="container mx-auto center-block">
             <ul class="list-none flex gap-6 justify-between items-center">
                 <li>
-                    <a class="text-white text-xl hover:text-gray-300" href="besoins.php">
+                    <a class="text-white text-xl ml-10 hover:text-gray-300" href="besoins.php">
                         Mes Besoins
                     </a>
                 </li>
@@ -120,7 +120,7 @@ $pdo = $database->connection();
                     </a>
                 </li>
                 <li>
-                    <a class="text-white text-xl hover:text-gray-300" href="">
+                    <a class="text-white text-xl mr-10 hover:text-gray-300" href="">
                         Produits
                     </a>
                 </li>

@@ -34,7 +34,7 @@ if (!$plant) {
 
 
 
-<section class="rounded overflow-hidden bg-white shadow-md">
+<section class="rounded overflow-hidden bg-white shadow-md mb-20">
 
     <header class="py-4 bg-green-800 text-white">
         <h1 class="text-6xl text-center font-light uppercase"><?= $plant->getPlante() ?></h1>
@@ -49,7 +49,7 @@ if (!$plant) {
             <h3 class="text-4xl text-green-500"><?= $plant->getPrice() ?> €</h3>
 
             <div class="mt-10">
-                <p>Description:</p>
+                <p>Description :</p>
                 <hr class="my-6" />
                 <p><?= $plant->getDescription() ?></p>
             </div>
@@ -69,7 +69,7 @@ if (!$plant) {
                 <a href="edit.php?id=" class="py-2 px-4 rounded bg-green-400 hover:bg-green-700 text-white">
                     <i class="fa-solid fa-pen-to-square mr-2"></i>Éditer
                 </a>
-                <form method="post" onsubmit="return confirm('Supprimer ce livre ?')">
+                <form method="post" onsubmit="return confirm('Supprimer cette plante ?')">
                     <button class="py-2 px-4 rounded bg-pink-400 hover:bg-pink-500 text-white">
                         <i class="fa-solid fa-ban mr-2"></i>Supprimer
                     </button>
@@ -85,8 +85,9 @@ if (!$plant) {
     </div>
 
 </section>
-
+<br />
 <?php
+require_once "./components/caroussel_footer.php";
 require_once "./includes/footer.php";
 
 ?>
