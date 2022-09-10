@@ -12,8 +12,9 @@ require_once "./includes/header.php";
 Directeur de la publication : BCD Devs & co.
 <br />
 Hébergeur : Wamp
+<br /><br />
+<h3>CONDITIONS GÉNÉRALES D'UTILISATION DU SITE</h3>
 <br />
-<h3>CONDITIONS GÉNÉRALES D'UTILISATION DU SITE</h3><br />
 I. DÉFINITIONS<br />
 Tous les noms communs reproduits avec une majuscule dans les présentes conditions générales d’utilisation, qu’ils soient employés au singulier ou au pluriel, sont définis comme suit :
 « BCD club » désigne le programme de fidélité, accessible sur le Site et offert aux Membres qui se sont identifiés aux fins de leur adhésion ;
@@ -169,11 +170,11 @@ Le service clients traitera dans les meilleurs délais la demande du Membre. Dan
 5. Non-conformité de la commande<br />
 
 Si le Membre estime que les produits PhytoBCD livrés se sont pas conformes à la commande passée, il devra contacter le service clients du Site dans un délai maximum de quarante-huit (48) heures ouvrées à compter de la réception, et ce, au moyen du formulaire de contact prévu à cet effet. Il devra notifier ses réserves, fournir les éléments justificatifs de la non-conformité de la commande (photographies) et indiquer les caractéristiques de l’Offre commandée et la nature du défaut de la commande reçue.
-<br />
-XI. TRAITEMENT DES DONNÉES PERSONNELLES<br />
+<br /><br />
+<h3 id="PC">XI. TRAITEMENT DES DONNÉES PERSONNELLES</h3><br />
 Conformément à l’article 32 de la Loi Informatique et Liberté n°78-17 du 6 janvier 1978 modifiée et du Règlement Général sur la Protection des Données (Règlement UE 2016/679) (ci-après « RGPD »), l’Utilisateur et, le cas échant, le Membre est informé que certains traitements de données personnelles le concernant sont nécessaires pour répondre à ses demandes et réalisés pour les besoins de l’exploitation du Site. Ces informations sont destinées à l’éditeur du Site à des fins de gestion administrative et commerciale.
 <br />
-a) Les finalités de traitement<br />
+a) Les finalités de traitement :<br />
 
 En sa qualité de responsable de traitement, PhytoBCD s’engage à collecter les données personnelles des Utilisateurs ou le cas échéant, des Membres pour des finalités déterminées, explicites et légitimes.
 <br />

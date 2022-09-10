@@ -17,7 +17,7 @@
         <div>
             <h2 class="text-center text-white text-xl mt-5">Inscrivez-vous à notre Newsletter</h2>
             <br />
-            <a href=""><img class="w-20 ml-20" src="./images/kindpng_4649229.png" alt="mailbox"></a>
+            <a href="https://www.google.com/intl/fr/gmail/about/"><img class="w-20 ml-20" src="./images/kindpng_4649229.png" alt="mailbox"></a>
         </div>
         <div>
             <h2 class="text-right text-white text-xl mr-20 mt-5">Trouvez nos produits...</h2>
@@ -27,25 +27,25 @@
     </div>
     <div class="w-1/3" id="footer2">
         <div>
-            <a href="">
+            <a href="index.php">
                 <h2 class="text-left text-white text-xl ml-10 pt-5">La Phytothérapie</h2>
             </a>
             <br />
-            <a href="">
+            <a href="index.php">
                 <h2 class="text-left text-white text-xl ml-10 pt-5">Nos Produits</h2>
             </a>
         </div>
         <div>
-            <a href="">
+            <a href="contact.php">
                 <h2 class="text-center text-white text-xl pt-5">Nous Contacter</h2>
             </a>
         </div>
         <div>
-            <a href="">
+            <a href="#">
                 <h2 class="text-white text-xl pt-5 -mr-10">Mentions Légales</h2>
             </a>
             <br />
-            <a href="">
+            <a href="cgu.php#PC">
                 <h2 class="text-white text-xl -mr-10">Politique de Confidentialité</h2>
             </a>
             <br />

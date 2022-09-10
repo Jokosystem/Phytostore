@@ -11,7 +11,7 @@
         <div class="carousel-inner relative w-full overflow-hidden">
             <!-- Single item -->
             <div class="carousel-item active relative float-left w-full">
-                <img src="./images/PhytoBCD_Berkin.png" class="flex w-full" alt="Motorbike Smoke" />
+                <img src="./images/PhytoBCD_Berkin.png" class="flex w-full" alt="BCD" />
                 <div class="carousel-caption hidden md:block absolute text-center">
                     <h5 class="text-xl"></h5>
                     <p</p>
@@ -21,7 +21,7 @@
             <!-- Single item -->
             <div class="carousel-item relative float-left w-full">
                 <img src="./images/Les_remèdes_naturels_PhytoBCD.png
-" class="flex w-full" alt="Mountaintop" />
+" class="flex w-full" alt="BCD" />
                 <div class="carousel-caption hidden md:block absolute text-center">
                     <h5 class="text-xl"></h5>
                     <p></p>
@@ -31,7 +31,7 @@
             <!-- Single item -->
             <div class="carousel-item relative float-left w-full">
                 <img src="./images/phytoBcd_Driss.png
-" class="flex w-full" alt="Woman Reading a Book" />
+" class="flex w-full" alt="BCD" />
                 <div class="carousel-caption hidden md:block absolute text-center">
                     <h5 class="text-xl"></h5>
                     <p</p>
