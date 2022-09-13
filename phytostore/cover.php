@@ -29,9 +29,9 @@
         <div>
             <div class='at-itemnavcover'>
                 <ul class="list-none flex gap-6 justify-between items-center ml-20 mr-20 mb-2">
-                    <a href="#page-1" class="text-2xl text-green-600 hover:text-green-800">Accueil</a>
-                    <a href="#page-2" class="text-2xl text-green-600 hover:text-green-800">S'inscrire</a>
-                    <a href="#page-3" class="text-2xl text-green-600 hover:text-green-800">S'identifier</a>
+                    <a href="#page-1" class="text-2xl text-green-600 hover:text-green-800"><i class="fa-sharp fa-solid fa-house"></i> Accueil</a>
+                    <a href="#page-2" class="text-2xl text-green-600 hover:text-green-800"><i class="fa-sharp fa-solid fa-pen-to-square"></i> S'inscrire</a>
+                    <a href="#page-3" class="text-2xl text-green-600 hover:text-green-800"><i class="fa-sharp fa-solid fa-right-to-bracket"></i> S'identifier</a>
                 </ul>
             </div>
         </div>
