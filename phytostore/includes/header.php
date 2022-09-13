@@ -22,13 +22,10 @@ $pdo = $database->connection();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap.css">
-
     <link rel="stylesheet" href="./phyto.css">
     <title>Phytostore</title>
 </head>
@@ -110,17 +107,17 @@ $pdo = $database->connection();
         <div class="container mx-auto center-block">
             <ul class="list-none flex gap-6 justify-between items-center">
                 <li>
-                    <a class="text-white text-xl ml-10 hover:text-gray-300" href="besoins.php">
+                    <a class="text-white text-2xl ml-10 hover:text-gray-300" href="besoins.php">
                         Mes Besoins
                     </a>
                 </li>
                 <li>
-                    <a class="text-white text-xl hover:text-gray-300" href="index.php">
+                    <a class="text-white text-2xl hover:text-gray-300" href="index.php">
                         Phytothérapie
                     </a>
                 </li>
                 <li>
-                    <a class="text-white text-xl mr-10 hover:text-gray-300" href="">
+                    <a class="text-white text-2xl mr-10 hover:text-gray-300" href="">
                         Produits
                     </a>
                 </li>
@@ -130,4 +127,4 @@ $pdo = $database->connection();
     <!-- <div id="title">
             <h1 class="text-3xl mb-20 -mt-10">Phytothérapie</h1>
         </div> -->
-<main class="container mx-auto">
+    <main class="container mx-auto">

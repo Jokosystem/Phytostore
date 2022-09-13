@@ -2,6 +2,7 @@
   background-image: url(./images/anim.gif);
 } */
 
+
 #navcategory {
     background-color: #046A1B;
 }
@@ -24,7 +25,7 @@
 #logos {
     display: flex;
     width: 100%;
-    height: 220px;
+    height: 37px;
     left: auto;
     right: auto;
     opacity: 80%;
@@ -58,7 +59,7 @@ div.at-container {
     height: 100px;
     background:url(./images/LOGO_phyto_bcd.png) no-repeat;
     animation-name: tilt-in-right-1;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: ease;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -97,7 +98,7 @@ div.at-container {
     margin-bottom: 50px;
     background-color:white;
     animation-name: slide-top;
-    animation-duration: 1.5s;
+    animation-duration: 1.3s;
     animation-timing-function: ease;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -157,7 +158,7 @@ div.at-container {
   .at-item6 {
     color: #3079ed;
     animation-name: tilt-in-right-1;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: ease;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -177,115 +178,6 @@ div.at-container {
       opacity: 1;
     }
   }
-
-  /*animtion bounce*/
-  div.at-container9 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
-  .at-item9 {
-    
-    
-    animation-name: bounce-in-zoomin;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    /* shorthand 
-    animation: bounce-in-zoomin 1s ease 0s 1 normal none;
-    */ 
-  }
-  @keyframes bounce-in-zoomin {
-    0%{
-      transform: scale(7);
-      animation-timing-function: ease-in;
-      opacity: 0;
-    }
-    35%{
-      transform: scale(1);
-      animation-timing-function: ease-out;
-      opacity: 1;
-    }
-    55%{
-      transform: scale(1.5);
-      animation-timing-function: ease-in;
-    }
-    70%{
-      transform: scale(1);
-      animation-timing-function: ease-out;
-    }
-    80%{
-      transform: scale(1.24);
-      animation-timing-function: ease-in;
-    }
-    90%{
-      transform: scale(1);
-      animation-timing-function: ease-out;
-    }
-    95%{
-      transform: scale(1.04);
-      animation-timing-function: ease-in;
-    }
-    100%{
-      transform: scale(1);
-      animation-timing-function: ease-out;
-    }
-  }
-
-
-/* cover*/
-*
-{
-  margin: 0;
-  padding: 0;
-}
-
-.container1 {
-  width: 100%;
-  height: 100vh;
-  background-image: url(./images/phytobasket.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: table;
-}
-
-.container2 {
-  width: 100%;
-  height: 100vh;
-  background-image: url(./images/tablephyto.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: table;
-}
-
-.container3 {
-  width: 100%;
-  height: 100vh;
-  background-image: url(./images/woodphyto.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: table;
-}
-
-#link {
-  font-size: 5rem;
-  color: white;
-  font-weight: 600;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  
-}
 
 /*carousels*/
 #carou {

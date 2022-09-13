@@ -1,0 +1,112 @@
+/*logo cover*/
+div.at-containerlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .at-itemlogo {
+    width: 600px;
+    height: 100px;
+    margin-top: 2%;
+    background:url(./images/LOGO_phyto_bcd.png) no-repeat;
+    animation-name: tilt-in-right-1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    /* shorthand 
+    animation: tilt-in-right-1 1s ease 0s 1 normal none;
+    */ 
+  }
+  
+  @keyframes tilt-in-right-1 {
+    0%{
+      transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+      opacity: 0;
+    }
+    100%{
+      transform: rotateX(0deg) translateX(0) skewX(0deg);
+      opacity: 1;
+    }
+  }
+  
+  /* cover nav*/
+  
+  .at-itemnavcover {
+    animation-name: shutter-in-top;
+    animation-duration: 1.3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    scroll-behavior: smooth;
+    /* shorthand 
+    animation: shutter-in-top 1s ease 0s 1 normal none;
+    */ 
+  }
+  @keyframes shutter-in-top {
+    0%{
+      transform: rotateX(-100deg);
+      transform-origin: top;
+      opacity: 0;
+    }
+    100%{
+      transform: rotateX(0deg);
+      transform-origin: top;
+      opacity: 1;
+    }
+  }
+  /*cover bg*/
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/phytobasket.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+    scroll-behavior: smooth;
+  }
+  
+  .container2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/tablephyto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+  }
+  
+  .container3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/woodphyto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+  }
+  
+  #page-1, #page-2, #page-3 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  

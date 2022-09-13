@@ -2,11 +2,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-</body>
+
 <footer>
     <div class="w-1/3 mt-20" id="footer1">
         <div>
-            <h2 class="text-left text-white text-xl ml-20 mt-5">Suivez-nous</h2>
+            <h2 class="text-left text-white text-2xl ml-20 mt-5">Suivez-nous</h2>
             <br />
             <div id="logos">
                 <div class="ml-5"><a href="https://www.facebook.com/"><img class="w-20" src="./images/SeekPng.com_white-circle-png_185630.png" alt="facebook"></a></div>
@@ -15,12 +15,12 @@
             </div>
         </div>
         <div>
-            <h2 class="text-center text-white text-xl mt-5">Inscrivez-vous à notre Newsletter</h2>
+            <h2 class="text-center text-white text-2xl mt-5">Inscrivez-vous à notre Newsletter</h2>
             <br />
-            <a href="https://www.google.com/intl/fr/gmail/about/"><img class="w-20 ml-20" src="./images/kindpng_4649229.png" alt="mailbox"></a>
+            <div id="logos"><a href="https://www.google.com/intl/fr/gmail/about/"><img class="w-20 ml-20" src="./images/icons8-edit-mailbox-50.png" alt="mailbox"></a></div>
         </div>
         <div>
-            <h2 class="text-right text-white text-xl mr-20 mt-5">Trouvez nos produits...</h2>
+            <h2 class="text-right text-white text-2xl mr-20 mt-5">Trouvez nos produits...</h2>
             <br />
             <a href="https://www.google.fr/maps" alt="map"><img class="w-20 ml-10" src="./images/kindpng_1957108.png" alt=""></a>
         </div>
@@ -30,14 +30,14 @@
             <a href="index.php">
                 <h2 class="text-left text-white text-xl ml-10 pt-5">La Phytothérapie</h2>
             </a>
-            <br />
+            <!-- <br />
             <a href="index.php">
                 <h2 class="text-left text-white text-xl ml-10 pt-5">Nos Produits</h2>
-            </a>
+            </a> -->
         </div>
         <div>
             <a href="contact.php">
-                <h2 class="text-center text-white text-xl pt-5">Nous Contacter</h2>
+                <h2 class="text-center text-white text-xl pt-5 -ml-5">Nous Contacter</h2>
             </a>
         </div>
         <div>
@@ -54,8 +54,6 @@
             </a>
         </div>
     </div>
-    <!-- <div id="footer">
-    <img id="footer" src="./assets/images/footer_phyto.png" alt="footer_phyto">
-</div> -->
 </footer>
+</body>
 </html>
