@@ -27,6 +27,7 @@ $pdo = $database->connection();
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
     <link rel="stylesheet" href="./bootstrap.css">
     <link rel="stylesheet" href="./phyto.css">
+    <link rel="stylesheet" href="./blog.css"> <!--css de la page blog -->
     <title>Phytostore</title>
 </head>
 

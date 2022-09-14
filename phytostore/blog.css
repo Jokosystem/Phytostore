@@ -1,0 +1,25 @@
+figure {
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+figcaption {
+    background-color: #0fa958;
+    overflow: hidden;
+}
+
+figcaption h3 {
+    text-overflow: ellipsis;
+    width: 100%;
+    /* word-break: normal; */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+article>figure>div {
+    overflow: hidden;
+}
+
+article>figure:hover>div>img {
+    transform: scale(1.1);
+}
