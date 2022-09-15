@@ -14,7 +14,7 @@ require_once "./includes/header.php";
                     <img class="w-100" src="./images/card1.png" alt="">
                 </div>
                 <figcaption class="px-3 py-2">
-                    <h3 class="h5 text-white">Visitez nos partenaires</h3>
+                    <h3 class="h5 text-white">Visitez Arkopharma</h3>
                     <p class="m-0 text-white"><a href="https://fr.arkopharma.com/">Visiter</a></p>
                 </figcaption>
             </figure>
@@ -25,8 +25,8 @@ require_once "./includes/header.php";
                     <img class="w-100" src="./images/card3.png" alt="">
                 </div>
                 <figcaption class="px-3 py-2">
-                    <h3 class="h5 text-white">Visitez nos partenaires</h3>
-                    <p class="m-0 text-white"><a href="https://fr.arkopharma.com/">Visiter</a></p>
+                    <h3 class="h5 text-white">Visitez Vidal</h3>
+                    <p class="m-0 text-white"><a href="https://www.vidal.fr/">Visiter</a></p>
                 </figcaption>
             </figure>
         </article>
@@ -36,8 +36,8 @@ require_once "./includes/header.php";
                     <img class="w-100" src="./images/card4.png" alt="">
                 </div>
                 <figcaption class="px-3 py-2">
-                    <h3 class="h5 text-white">Visitez nos partenaires</h3>
-                    <p class="m-0 text-white"><a href="https://fr.arkopharma.com/">Visiter</a></p>
+                    <h3 class="h5 text-white">Visitez Natureactive</h3>
+                    <p class="m-0 text-white"><a href="https://www.naturactive.fr/">Visiter</a></p>
                 </figcaption>
             </figure>
         </article>
