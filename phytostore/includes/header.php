@@ -118,7 +118,7 @@ $pdo = $database->connection();
                     </a>
                 </li>
                 <li>
-                    <a class="text-white text-2xl mr-10 hover:text-gray-300" href="">
+                    <a class="text-white text-2xl mr-10 hover:text-gray-300" href="blog.php">
                         Blog
                     </a>
                 </li>
