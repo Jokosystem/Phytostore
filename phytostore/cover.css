@@ -4,12 +4,12 @@ div.at-containerlogo {
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin-right: 50px;
   }
   .at-itemlogo {
-    width: 600px;
+    width: 350px;
     height: 100px;
-    margin-top: 2%;
-    background:url(./images/LOGO_phyto_bcd.png) no-repeat;
+    background:url(./images/LOGO_phyto_bcd2.png) no-repeat;
     animation-name: tilt-in-right-1;
     animation-duration: 1.5s;
     animation-timing-function: ease;

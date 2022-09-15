@@ -55,9 +55,9 @@ div.at-container {
     height: 100%;
   }
   .at-item {
-    width: 600px;
+    width: 350px;
     height: 100px;
-    background:url(./images/LOGO_phyto_bcd.png) no-repeat;
+    background:url(./images/LOGO_phyto_bcd2.png) no-repeat;
     animation-name: tilt-in-right-1;
     animation-duration: 1.5s;
     animation-timing-function: ease;
