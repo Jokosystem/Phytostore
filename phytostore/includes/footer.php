@@ -15,20 +15,20 @@
             </div>
         </div>
         <div>
-            <h2 class="text-center text-white text-2xl mt-5">Inscrivez-vous à notre Newsletter</h2>
-            <br />
-            <div id="logos"><a href="https://www.google.com/intl/fr/gmail/about/"><img class="w-20 ml-20" src="./images/icons8-edit-mailbox-50.png" alt="mailbox"></a></div>
+            <h2 class="text-center text-white text-2xl mt-5"><a href="https://www.google.com/intl/fr/gmail/about/"><i class="fa-solid fa-envelope"></i> Inscrivez-vous à notre Newsletter</a></h2>
+            <!-- <br />
+            <div id="logos"><img class="w-20 ml-20" src="./images/icons8-edit-mailbox-50.png" alt="mailbox"></div> -->
         </div>
         <div>
-            <h2 class="text-right text-white text-2xl mr-20 mt-5">Trouvez nos produits...</h2>
+            <h2 class="text-right text-white text-2xl mr-20 mt-5"><a href="https://www.google.fr/maps" alt="map"><i class="fa-sharp fa-solid fa-map-location-dot"></i> Trouvez nos produits...</a></h2>
             <br />
-            <a href="https://www.google.fr/maps" alt="map"><img class="w-20 ml-10" src="./images/kindpng_1957108.png" alt=""></a>
+            
         </div>
     </div>
     <div class="w-1/3" id="footer2">
         <div>
             <a href="index.php">
-                <h2 class="text-left text-white text-xl ml-10 pt-5">La Phytothérapie</h2>
+                <h2 class="text-left text-white text-xl ml-10 pt-5">La "Phyto"</h2>
             </a>
             <!-- <br />
             <a href="index.php">
