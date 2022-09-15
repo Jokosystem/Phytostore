@@ -1,4 +1,4 @@
-<h2 class="text-center text-font-italic text-3xl text-black">Nos Partenaires</h2>
+<h2 class="text-center text-3xl text-black">Nos Partenaires</h2>
 <br />
 <hr>
 <div id="carou_foot">
