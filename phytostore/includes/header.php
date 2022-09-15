@@ -25,14 +25,18 @@ $pdo = $database->connection();
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
-    <link rel="stylesheet" href="./bootstrap.css">
+    <!-- <link rel="stylesheet" href="./bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--css-->
     <link rel="stylesheet" href="./phyto.css">
-    <link rel="stylesheet" href="./blog.css"> <!--css de la page blog -->
+    <!--css de la page blog -->
+    <link rel="stylesheet" href="./blog.css">
+    
     <title>Phytostore</title>
 </head>
 
 <body class="bg-slate-50">
-    <nav class="shadow-md py-5 bg-white">
+    <nav id="nav" class="shadow-md py-5 bg-white">
         <div class="container mx-auto flex justify-between items-center">
 
             <a href="index.php">
@@ -100,7 +104,6 @@ $pdo = $database->connection();
                         </h1>
                     </div>
                 </li>
-
             </ul>
         </div>
     </nav>
@@ -108,17 +111,17 @@ $pdo = $database->connection();
         <div class="container mx-auto center-block">
             <ul class="list-none flex gap-6 justify-between items-center">
                 <li>
-                    <a class="text-white text-2xl ml-10 hover:text-gray-300" href="besoins.php">
+                    <a class="text-white text-2xl ml-10" href="besoins.php">
                         Mes Besoins
                     </a>
                 </li>
                 <li>
-                    <a class="text-white text-2xl hover:text-gray-300" href="index.php">
+                    <a class="text-white text-2xl" href="index.php">
                         Produits
                     </a>
                 </li>
                 <li>
-                    <a class="text-white text-2xl mr-10 hover:text-gray-300" href="blog.php">
+                    <a class="text-white text-2xl mr-10" href="blog.php">
                         Blog
                     </a>
                 </li>

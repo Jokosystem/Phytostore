@@ -6,7 +6,9 @@
 <footer>
     <div class="w-1/3 mt-20" id="footer1">
         <div>
-            <h2 class="text-left text-white text-2xl ml-20 mt-5">Suivez-nous</h2>
+            <div>
+                <h2 class="text-left text-white text-2xl ml-20 mt-5">Suivez-nous !</h2>
+            </div>
             <br />
             <div id="logos">
                 <div class="ml-5"><a href="https://www.facebook.com/"><img class="w-20" src="./images/SeekPng.com_white-circle-png_185630.png" alt="facebook"></a></div>
@@ -15,25 +17,19 @@
             </div>
         </div>
         <div>
-            <h2 class="text-center text-white text-2xl mt-5"><a href="https://www.google.com/intl/fr/gmail/about/"><i class="fa-solid fa-envelope"></i> Inscrivez-vous à notre Newsletter</a></h2>
-            <!-- <br />
-            <div id="logos"><img class="w-20 ml-20" src="./images/icons8-edit-mailbox-50.png" alt="mailbox"></div> -->
+            <h2 class="text-center text-white text-2xl mt-5"><a class="hover:text-yellow-500" href="https://www.google.com/intl/fr/gmail/about/"><i class="fa-solid fa-envelope hover:"></i> Inscrivez-vous à notre Newsletter</a></h2>
         </div>
         <div>
-            <h2 class="text-right text-white text-2xl mr-20 mt-5"><a href="https://www.google.fr/maps" alt="map"><i class="fa-sharp fa-solid fa-map-location-dot"></i> Trouvez nos produits...</a></h2>
+            <h2 class="text-right text-white text-2xl mr-20 mt-5"><a class="hover:text-yellow-500" href="https://www.google.fr/maps" alt="map"><i class="fa-sharp fa-solid fa-map-location-dot"></i> Trouvez nos produits...</a></h2>
             <br />
-            
+
         </div>
     </div>
     <div class="w-1/3" id="footer2">
         <div>
             <a href="index.php">
-                <h2 class="text-left text-white text-xl ml-10 pt-5">La "Phyto"</h2>
+                <h2 class="text-left text-white text-xl ml-20 pt-5">La "Phyto"</h2>
             </a>
-            <!-- <br />
-            <a href="index.php">
-                <h2 class="text-left text-white text-xl ml-10 pt-5">Nos Produits</h2>
-            </a> -->
         </div>
         <div>
             <a href="contact.php">
@@ -56,4 +52,5 @@
     </div>
 </footer>
 </body>
+
 </html>
