@@ -2,10 +2,6 @@
 require_once "./src/Phyto.php";
 // nous allons intancier notre méthode
 $plant = new Phyto();
-
-
-require_once "./includes/header.php";
-
 //Nous allons traiter les données si nous recevons une requête html de type POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST')
 // on vérifie quelques vérifications de base
@@ -55,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
     }
   }
 }
-
+require_once "./includes/header.php";
 ?>
 
 

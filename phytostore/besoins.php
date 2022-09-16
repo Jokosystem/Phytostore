@@ -11,7 +11,7 @@ require_once "./includes/header.php";
     <article class="col-12 col-md-6 col-xl-3 mb-10">
       <figure class="bg-white shadow-sm">
         <div>
-          <img class="w-100" src="./images/card5.png" alt="">
+          <img class="w-100" src="./images/" alt="">
         </div>
         <figcaption class="px-3 py-2">
 
