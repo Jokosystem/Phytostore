@@ -16,28 +16,29 @@
 </head>
 
 <body>
-<marquee class="text-3xl text-green-700 mt-2" behavior="alternate" direction="right">Découvrez les Bienfaits de la Phytothérapie en toute simplicité !</marquee>
-<br />
-    <a href="index.php">
-        <div class='at-containerlogo'>
-            <!--animation logo -->
-            <div class='at-itemlogo'>
-            </div>
-        </div>
-    </a>
-    <nav id="navcover">
-        <div>
-            <div class='at-itemnavcover'>
-                <ul class="list-none flex gap-6 justify-between items-center ml-20 mr-20 mb-5">
-                    <a href="index.php" class="text-2xl text-green-600 hover:text-green-800"><i class="fa-sharp fa-solid fa-house"></i> Accueil</a>
-                    <a href="#page-2" class="text-2xl text-green-600 hover:text-green-800"><i class="fa-sharp fa-solid fa-pen-to-square"></i> S'inscrire</a>
-                    <a href="#page-3" class="text-2xl text-green-600 hover:text-green-800"><i class="fa-sharp fa-solid fa-right-to-bracket"></i> S'identifier</a>
-                </ul>
-            </div>
-        </div>
 
-
-    </nav>
+    <div class="cadre">
+        <marquee class="text-3xl text-green-700 mt-2" behavior="alternate" direction="right">Bienvenue ! Découvrez les Bienfaits de la Phytothérapie en toute simplicité !</marquee>
+        <br />
+        <a href="index.php">
+            <div class='at-containerlogo'>
+                <!--animation logo -->
+                <div class='at-itemlogo'>
+                </div>
+            </div>
+        </a>
+        <nav id="navcover">
+            <div>
+                <div class='at-itemnavcover'>
+                    <ul class="list-none flex gap-6 justify-between items-center ml-20 mr-20 mb-5">
+                        <a href="index.php" class="text-2xl text-green-600 hover:text-green-800"><i class="fa-sharp fa-solid fa-house"></i> Accueil</a>
+                        <a href="#page-2" class="text-2xl text-green-600 hover:text-green-800"><i class="fa-sharp fa-solid fa-pen-to-square"></i> S'inscrire</a>
+                        <a href="#page-3" class="text-2xl text-green-600 hover:text-green-800"><i class="fa-sharp fa-solid fa-right-to-bracket"></i> S'identifier</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
     <div class="container1">
         <h1 id="page-1" class="text-white"><a class="text-decoration-none" href="index.php">Bienvenue<br />sur<br />Phytostore</a></h1>
     </div>

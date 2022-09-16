@@ -4,10 +4,10 @@ require_once "./includes/header.php";
 ?>
 
 <p>
-<h1 class="text-center text-3xl">Conditions Générales d'Utilisation 2022 PhytoStore (Phyto BCD)</h1><br />
+<h1 class="text-center text-3xl">Conditions Générales d'Utilisation 2022 PhytoBCD (Phyto BCD)</h1><br />
 <h3>INFORMATIONS LÉGALES</h3>
 <br />
-Éditeur : Le site Phytostore (ci-après le « Site ») que vous consultez actuellement est la propriété d'une équipe de trois développeurs, Société par Actions Simplifiée au capital de 736 euros, immatriculée au Registre du Commerce et des Sociétés de Grasse sous le numéro B 123 654 987 et dont le siège social est sis : PHILIANCE Formations.
+Éditeur : Le site PhytoBCD (ci-après le « Site ») que vous consultez actuellement est la propriété d'une équipe de trois développeurs, Société par Actions Simplifiée au capital de 736 euros, immatriculée au Registre du Commerce et des Sociétés de Grasse sous le numéro B 123 654 987 et dont le siège social est sis : PHILIANCE Formations.
 <br />
 Directeur de la publication : BCD Devs & co.
 <br />
@@ -24,7 +24,7 @@ Tous les noms communs reproduits avec une majuscule dans les présentes conditio
 « E-Store» désigne le site de vente phytosore.com
 « Membre » désigne un Utilisateur adhérent du BCD club, bénéficiant du programme de fidélité ;
 « Offres » désigne les produits PhytoBCD, dont la liste est évolutive, disponibles dans la E-Boutique en échange de points ;
-« Site » désigne le site Internet www.phytostore.com;
+« Site » désigne le site Internet www.phytobcd.com;
 « Utilisateur » désigne toute personne qui navigue sur le Site et bénéficie des services proposés sur celui-ci, notamment, la possibilité d’adhérer au BCD club.<br />
 II. OBJET DES CGU<br />
 Les CGU ont pour objet de décrire les droits et obligations de chaque Utilisateur et de chaque Membre dans le cadre du BCD club et de l’utilisation du Site.<br />
@@ -58,8 +58,8 @@ IV. ADHÉSION AU BCD CLUB : <br />
 Le BCD club et tous les services proposés dans le BCD club sont réservés aux Membres du BCD club. Le BCD club est accessible uniquement via le Site et les présentes CGU du Site sont opposables aux Membres.
 Pour devenir Membre, l'Utilisateur devra :
 <br />
-Se connecter sur la page du Site accessible à l'adresse suivante : www.phytostore.com/
-S'inscrire sur le Site phytostore.com :
+Se connecter sur la page du Site accessible à l'adresse suivante : www.phytobcd.com/
+S'inscrire sur le Site phytobcd.com :
 1ère étape : Remplir le formulaire d'inscription en renseignant son e-mail qui servira d'identifiant, son mot de passe choisi, son prénom, son nom, et sa date de naissance et en acceptant les présentes CGU de Phyto BCD en cochant impérativement la case prévue à cet effet.
 2ème étape : Dans l’espace Mon Compte, Informations personnelles, l’Utilisateur validera son inscription en complétant, sa civilité, son adresse postale et en acceptant les CGU du BCD club.
 Le Membre peut recevoir des informations commerciales de la part de PhytoBCD ou de ses partenaires, en cochant la case prévue à cet effet. Pour toute désinscription aux newsletters, l'Utilisateur peut cliquer sur le lien de désinscription se trouvant en bas de chaque newsletter émanant de la marque ou se rendre dans son profil pour modifier son choix à tout moment.
@@ -68,7 +68,7 @@ Tout formulaire d'inscription rempli de façon incomplète, incompréhensible ou
 <br />
 Il n’est accepté qu’une seule inscription par personne. L’inscription au BCD club est uniquement destinée à l'usage des personnes majeures et capables juridiquement, sur le territoire de la France métropolitaine, Corse incluse et Monaco.
 <br />
-Chaque fois que le Membre souhaitera se connecter au BCD Club, celui-ci devra se connecter à son compte sur la page du Site accessible à l'adresse suivante : www.phytostore.com en saisissant l'adresse e-mail et le mot de passe renseignés lors de son inscription.
+Chaque fois que le Membre souhaitera se connecter au BCD Club, celui-ci devra se connecter à son compte sur la page du Site accessible à l'adresse suivante : www.phytobcd.com en saisissant l'adresse e-mail et le mot de passe renseignés lors de son inscription.
 <br />
 VII. RÈGLES RELATIVES À LA SAISIE DES DÉCLARATIONS D’ACHAT<br />
 Dans les six (6) mois suivant son achat, le Membre doit télécharger sur le Site la preuve de l'achat du produit de marque PhytoBCD appartenant aux gammes énumérées à l’article V.2 dans la rubrique « Mes Preuve d’achat ».
@@ -252,7 +252,7 @@ PhytoBCD s’engage à notifier à la personne ayant exercé ses droits toute re
 
 PhytoBCD se réserve le droit de ne pas exercer cette obligation si cela entraine des formalités, coûts et démarches disproportionnées.
 
-Le Membre ou l’Utilisateur peut faire valoir ses droits en écrivant à l’adresse mail suivante : dpo@phytobcd.com.
+Le Membre ou l’Utilisateur peut faire valoir ses droits en écrivant à l’adresse mail suivante : phytobcd@gmail.com.
 <br />
 XII. GESTION DES COOKIES, LIENS HYPERTEXTES ET RÉFÉRENCEMENTS<br />
 Cette rubrique est consacrée à la Politique Cookies de PhytoBCD. Lors de la consultation du Site, des informations relatives à la navigation du terminal de l’Utilisateur ou du Membre (ordinateur, tablette, smartphone, etc.) sur le Site, sont susceptibles d'être enregistrées dans des fichiers "Cookies" installés sur le terminal de l’Utilisateur ou du Membre, sous réserve des choix que celui-ci aura exprimés concernant les Cookies et qu’il peut modifier à tout moment. Seul l’émetteur d’un Cookie est susceptible de lire ou de modifier des informations qui y sont contenues.

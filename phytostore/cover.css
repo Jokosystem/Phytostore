@@ -43,7 +43,7 @@ div.at-containerlogo {
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: none;
-    scroll-behavior: smooth;
+
     /* shorthand 
     animation: shutter-in-top 1s ease 0s 1 normal none;
     */ 
@@ -107,5 +107,11 @@ div.at-containerlogo {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+    border: black 1px solid;
   }
   
+.cadre {
+  border: black 4px solid;
+  background-image: url(https://fr.freepik.com/photos-premium/vraies-feuilles-monstera-fond-blanc-idees-concepts-nature-tropicale-botanique-television-lay-vue-dessus_22261895.htm
+  );
+}
