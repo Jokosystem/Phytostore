@@ -12,8 +12,6 @@ $database = new Database();
 // puis on invoque notre méthode connection()
 $pdo = $database->connection();
 ?>
-
-
 <!DOCTYPE html>
 <html lang="FR-fr">
 
@@ -117,7 +115,7 @@ $pdo = $database->connection();
                 </li>
                 <li>
                     <a class="text-white text-2xl" href="index.php">
-                        Produits
+                        Nos Produits
                     </a>
                 </li>
                 <li>

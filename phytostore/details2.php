@@ -5,7 +5,7 @@ require_once "./src/Phyto.php";
 $plant = new Phyto();
 
 
-
+require_once "./includes/header.php";
 
 $pdo = new PDO("mysql:host=localhost;dbname=phytostore;charset=utf8", "root", "", [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
@@ -19,6 +19,7 @@ if (!isset($_GET["id"]) || !is_numeric($_GET["id"])) {
 }
 
 
+
 $id = $_GET["id"];
 $stmt = $pdo->query("SELECT * FROM phyto WHERE id = $id");
 $stmt->setFetchMode(PDO::FETCH_CLASS, 'Phyto');
@@ -28,30 +29,29 @@ if (!$plant) {
     header('Location:index.php');
     exit;
 }
-
 // supression de la plante
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $stmt= $pdo->prepare("DELETE FROM phyto WHERE id = :id");
-     $stmt->bindParam(":id", $id);
- 
-     // si la supression est validée on retourne sur la page d'acceuil
-     if ($stmt->execute()) {
-         
-         header("Location: index.php");
-       }
-    }
+   $stmt= $pdo->prepare("DELETE FROM phyto WHERE id = :id");
+    $stmt->bindParam(":id", $id);
 
-require_once "./includes/header.php";
+    // si la supression est validée on retourne sur la page d'acceuil
+    if ($stmt->execute()) {
+        
+        header("Location: index.php");
+      }
+}
+
+
+
+
 ?>
 
 
-
-
-<section class="rounded overflow-hidden bg-white shadow-md mb-20">
-
+<section class="rounded overflow-hidden bg-white shadow-md">
     <header class="py-4 bg-green-800 text-white">
         <h1 class="text-6xl text-center font-light uppercase"><?= $plant->getPlante() ?></h1>
     </header>
+
     <div class="flex p-10 gap-6">
         <div class="w-1/3">
             <img class="max-w-full" src="<?= $plant->getImage() ?>" alt="">
@@ -62,7 +62,7 @@ require_once "./includes/header.php";
             <h3 class="text-4xl text-green-500"><?= $plant->getPrice() ?> €</h3>
 
             <div class="mt-10">
-                <p>Description :</p>
+                <p>Description:</p>
                 <hr class="my-6" />
                 <p><?= $plant->getDescription() ?></p>
             </div>
@@ -98,8 +98,7 @@ require_once "./includes/header.php";
     </div>
 
 </section>
-<br />
-
 <?php
-require_once "./components/caroussel_footer.php";
-require_once "./includes/footer.php"; ?>
+require_once "./includes/footer.php";
+
+?>

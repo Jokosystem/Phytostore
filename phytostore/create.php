@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
 // on vérifie quelques vérifications de base
 {
 
-  $pdo = new PDO("mysql:host=localhost;dbname=phytostore;charset-utf8", "root", "", [
+  $pdo = new PDO("mysql:host=localhost;dbname=phytostore;charset=utf8", "root", "", [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 
   ]);
