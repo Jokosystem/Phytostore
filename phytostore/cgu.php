@@ -343,7 +343,8 @@ Toute modification sera annoncée sur le Site et sera publiée et accessible sur
 
 Les présentes CGU sont établies en langue française. En cas de difficultés d’interprétation consécutives à une éventuelle traduction, seule la version française fera foi.
 <br />
-4. Droit applicable et Litiges<br />
+
+4. DROIT APPLICABLE ET LITIGES<br />
 
 Les présentes CGU sont régies et interprétées conformément au droit français.
 En cas de difficulté concernant l'utilisation du Site et des services qui y sont fournis, l'Utilisateur ou le Membre est préalablement invité à prendre contact avec le service client via le formulaire de contact.
@@ -356,6 +357,21 @@ Les parties entendent conférer à cette procédure de médiation une pleine for
 
 En cas d’échec de la médiation ou en cas de non-respect de l’accord conclu à l’issue de celle-ci, tout litige né des présentes CGU sera soumis à la compétence exclusive du Tribunal de Commerce de Grasse (Alpes-Maritimes).</p>
 <br />
+
+<h3 id="ML">Mentions légales</h3> <br />
+
+Propriété <br />
+
+Le présent site est la propriété de Phyto BCD, Société par Actions Simplifiées au capital de 48 974 975 euros dont le siège social est situé 45 place Abel Gance 92100 Boulogne Billancourt RCS NANTERRE SIREN 326 118 502 - TVA Intracommunautaire : FR 35 324 178 502 agissant au nom et pour le compte de son département dénommé « Phyto BCD », sis Phytostore, 1 rue 19 mars 1962-  Tel : 33 (0)5 63 71 45 00.
+<br />
+Directeur de publication <br />
+BCD Devs & co., Directeur de la marque Phyto BCD.  <br />
+
+Webmaster<br />
+phytobcd@gmail.com <br />
+
+Hébergeur 
+BCD Devs & co., SAS au capital de 10 069 020 Euros, immatriculée au 2 rue Kellermann - 59100 Roubaix - France, sous le numéro 537 407 926 sise 2, dont le siège social est situé 2 rue Kellermann - 59100 Roubaix – France 
 
 <?php
 require_once "./components/caroussel_footer.php";

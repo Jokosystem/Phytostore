@@ -35,7 +35,7 @@
             </a>
         </div>
         <div>
-            <a href="#">
+            <a href="cgu.php#ML">
                 <h2 class="text-white text-xl pt-5">Mentions Légales</h2>
             </a>
             <br />

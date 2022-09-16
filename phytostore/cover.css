@@ -75,7 +75,6 @@ div.at-containerlogo {
     background-position: center;
     background-attachment: fixed;
     display: table;
-    scroll-behavior: smooth;
   }
   
   .container2 {
