@@ -3,9 +3,9 @@ require_once "./includes/header.php";
 
 ?>
 
-<h1 class="text-center text-2xl">BCD Devs & co.</h1>
+<h1 class="text-center text-3xl">BCD Devs & co.</h1>
 <br />
-<h3 class="text-center text-xl">Contacts</h3>
+<h3 class="text-center text-2xl">Contacts</h3>
 <br />
 <hr class="mb-2">
 <p class="text-center">
