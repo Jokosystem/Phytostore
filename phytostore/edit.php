@@ -1,6 +1,6 @@
 <?php
 require_once "./src/Phyto.php";
-
+require_once "./src/Effet.php";
 // nous allons intancier notre méthode
 $plant = new Phyto();
 //nous verifions si notre query ID existe bien et si elle a une valeur numérique
@@ -86,6 +86,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
     }
   }
 }
+//-------------------------------------------//
+$stmt = $pdo->query("SELECT * FROM effet");
+$effets = $stmt->fetchAll(PDO::FETCH_CLASS, "Effet");
+//-------------------------------------------//
 // ne surtout pas oublier la redirection en plaçant le require-once du header à la fermeture de la balise php
 require_once "./includes/header.php";
 ?>
@@ -107,8 +111,16 @@ require_once "./includes/header.php";
   </div>
 
   <div class="mb-4">
-    <label class="block mb-2" for="effet">Effet de la plante:</label>
-    <input value="<?= $plant-> getEffet() ?>" class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" type="text" name="effet" id="effet">
+    <label for="effet" class="block mb-2  font-small text-black">Selectionner un Effet :</label>
+    <select name="effet" id="effet" class="bg-green-50 border border-green-300 text-green-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-white dark:border-green-300 dark:placeholder-green-400 dark:text-black dark:focus:ring-green-500 dark:focus:border-green-500">
+      <?php
+      foreach($effets as $effet) 
+      {
+        echo "<option value=".$effet->getId().">".$effet->getName()."</option>";
+      }
+      
+      ?>
+    </select>
   </div>
 
   <div class="mb-4">

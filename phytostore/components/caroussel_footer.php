@@ -1,8 +1,8 @@
-<h2 class="text-center text-3xl text-black">Nos Partenaires</h2>
+<h2 class="text-center text-3xl text-black mt-20">Nos Partenaires</h2>
 <br />
 <hr>
 <div id="carou_foot">
-    <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-light text-2xl -mb-10 mt-10  relative" data-bs-ride="carousel">
+    <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-light text-2xl -mb-10 mt-10" data-bs-ride="carousel">
         <!-- Indicators -->
         <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
             <button data-bs-target="#carouselDarkVariant" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

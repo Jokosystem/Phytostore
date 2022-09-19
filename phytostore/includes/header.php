@@ -31,6 +31,7 @@ $pdo = $database->connection();
     <link rel="stylesheet" href="./blog.css">
     
     <title>Phytostore</title>
+    
 </head>
 
 <body class="bg-slate-50">
@@ -45,13 +46,12 @@ $pdo = $database->connection();
                 </div>
             </a>
 
-
             <ul class="list-none flex gap-6 justify-between items-center">
-
                 <li>
                     <div class='at-container6'>
                         <!-- animation -->
                         <h1 class='at-item6'>
+                            
                             <a class="text-xl text-green-600 hover:text-red-700" href="create.php">
                                 <i class="fa-solid fa-circle-plus mr-2"></i>Ajouter un produit
                             </a>
@@ -81,7 +81,6 @@ $pdo = $database->connection();
                         </h1>
                     </div>
                 </li>
-
                 <li>
                     <div class='at-container6'>
                         <!-- animation slide -->

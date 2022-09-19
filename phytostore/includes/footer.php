@@ -4,6 +4,7 @@
 
 
 <footer>
+    
     <div class="w-1/3 mt-20" id="footer1">
         <div>
             <div>
@@ -25,8 +26,8 @@
     </div>
     <div class="w-1/3" id="footer2">
         <div>
-            <a href="index.php">
-                <h2 class="text-center text-white text-xl pt-5">La "Phytothérapie"</h2>
+            <a href="ustory.php">
+                <h2 class="text-center text-white text-xl pt-5">À Propos de "PhytoBCD"</h2>
             </a>
         </div>
         <div>

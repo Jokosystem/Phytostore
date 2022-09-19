@@ -21,7 +21,7 @@ Tous les noms communs reproduits avec une majuscule dans les présentes conditio
 « PhytoBCD » désigne l'équipe BCD Devs & co, éditeur et propriétaire du Site ;
 « CGU » désigne les présentes conditions générales d’utilisation du Site auxquelles tous les Utilisateur et Membres doivent se conformer ;
 « E-Boutique » désigne une section du BCD club présentant des Offres ;
-« E-Store» désigne le site de vente phytosore.com
+« E-Store» désigne le site de vente phytobcd.com
 « Membre » désigne un Utilisateur adhérent du BCD club, bénéficiant du programme de fidélité ;
 « Offres » désigne les produits PhytoBCD, dont la liste est évolutive, disponibles dans la E-Boutique en échange de points ;
 « Site » désigne le site Internet www.phytobcd.com;
@@ -276,12 +276,12 @@ Le cas échéant, PhytoBCD décline toute responsabilité pour les conséquences
 
 La configuration de la gestion des Cookies et des choix est différente dans chaque navigateur. Elle est décrite dans le menu d'aide du navigateur utilisé, et permettra de savoir de quelle manière la modification des souhaits en matière de Cookies peut être effectuée.
 <br />
-Pour Internet Explorer™ : http://windows.microsoft.com/fr-FR/windows-vista/Block-or-allow-cookies
-Pour Safari™ : https://support.apple.com/kb/PH21411?viewlocale=fr_FR&locale=fr_FR
-Pour Chrome™ : https://support.google.com/chrome/answer/95647?hl=fr&hlrm=en
-Pour Firefox® : https://support.mozilla.org/fr/kb/activer-desactiver-cookies
-Pour Opera™ : http://help.opera.com/Windows/10.20/fr/cookies.html
-Pour plus d’informations : https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser
+Pour Internet Explorer™ : http://windows.microsoft.com/fr-FR/windows-vista/Block-or-allow-cookies<br />
+Pour Safari™ : https://support.apple.com/kb/PH21411?viewlocale=fr_FR&locale=fr_FR<br />
+Pour Chrome™ : https://support.google.com/chrome/answer/95647?hl=fr&hlrm=en<br />
+Pour Firefox® : https://support.mozilla.org/fr/kb/activer-desactiver-cookies<br />
+Pour Opera™ : http://help.opera.com/Windows/10.20/fr/cookies.html<br />
+Pour plus d’informations : https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser<br />
 Le Site peut contenir des liens hypertextes menant à d’autres sites internet totalement indépendants du Site. PhytoBCD ne prétend, ni ne garantit que les informations contenues dans de tels liens hypertextes ou dans tout site internet auxquels ils se rattachent soient exactes, complètes ou véridiques.
 Dès lors, tout accès à un autre site internet lié au Site s’effectue sous la propre responsabilité de l’Utilisateur ou du Membre.
 <br />
@@ -308,7 +308,7 @@ En acceptant les CGU, le Membre accepte que le non-respect de celles-ci entraîn
 
 PhytoBCD se réserve le droit de prendre toutes les mesures nécessaires, y compris la suppression d'un compte Membre dans le cas d'une décision judiciaire l'y contraignant ou d'évènements de Force Majeure.
 
-Le Membre est seul responsable de l'utilisation frauduleuse ou non par des tiers de ses identifiants. Si le Membre soupçonne un abus de son compte, il pourra le notifier via le formulaire : contact accessible depuis le site www.phytostore.com. Toute connexion faite au Site via les identifiants d'un Membre est présumée être réalisée par ledit Membre.
+Le Membre est seul responsable de l'utilisation frauduleuse ou non par des tiers de ses identifiants. Si le Membre soupçonne un abus de son compte, il pourra le notifier via le formulaire : contact accessible depuis le site www.phytobcd.com. Toute connexion faite au Site via les identifiants d'un Membre est présumée être réalisée par ledit Membre.
 <br />
 XVI. RESPONSABILITÉ<br />
 1. Limitation de responsabilité<br />
@@ -362,7 +362,7 @@ En cas d’échec de la médiation ou en cas de non-respect de l’accord conclu
 
 Propriété <br />
 
-Le présent site est la propriété de Phyto BCD, Société par Actions Simplifiées au capital de 48 974 975 euros dont le siège social est situé 45 place Abel Gance 92100 Boulogne Billancourt RCS NANTERRE SIREN 326 118 502 - TVA Intracommunautaire : FR 35 324 178 502 agissant au nom et pour le compte de son département dénommé « Phyto BCD », sis Phytostore, 1 rue 19 mars 1962-  Tel : 33 (0)5 63 71 45 00.
+Le présent site est la propriété de Phyto BCD, Société par Actions Simplifiées au capital de 48 974 975 euros dont le siège social est situé 45 place Abel Gance 92100 Boulogne Billancourt RCS NANTERRE SIREN 326 118 502 - TVA Intracommunautaire : FR 35 324 178 502 agissant au nom et pour le compte de son département dénommé « Phyto BCD », sis PhytoBCD, 1 rue 19 mars 1962-  Tel : 33 (0)5 63 71 45 00.
 <br />
 Directeur de publication <br />
 BCD Devs & co., Directeur de la marque Phyto BCD.  <br />

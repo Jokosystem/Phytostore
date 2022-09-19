@@ -139,43 +139,26 @@ div.at-container6 {
 }
 
 
-/* animation cards*/
-div.at-container2 {
+/*cards*/
+
+/*image de card*/
+#imgcard {
+  height: 172.8px;
+}
+
+/*card besoins*/
+#need {
+  width: fit-content;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-  /* margin-bottom: 40px; */
 }
 
-.at-item2 {
-  width: 1000px;
-  height: 70px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: white;
-  animation-name: slide-top;
-  animation-duration: 1.3s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: both;
-  /* shorthand 
-    animation: slide-top 1s ease 0s 1 normal none;
-    */
-}
 
-@keyframes slide-top {
-  0% {
-    transform: translateY(0);
-  }
 
-  100% {
-    transform: translateY(-100px);
-  }
-}
+
+
 
 /* animation formulaire*/
 div.at-container3 {
@@ -213,6 +196,7 @@ div.at-container3 {
 
 /*carousels*/
 #carou {
+  margin-bottom: 70px;
   box-shadow: grey 6px 6px 6px 0px;
 }
 

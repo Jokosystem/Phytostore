@@ -1,6 +1,6 @@
 <?php
 require_once "./src/Phyto.php";
-
+require_once "./src/Effet.php";
 // nous allons intancier notre méthode
 $plant = new Phyto();
 
@@ -31,15 +31,24 @@ if (!$plant) {
 
 // supression de la plante
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $stmt= $pdo->prepare("DELETE FROM phyto WHERE id = :id");
-     $stmt->bindParam(":id", $id);
- 
-     // si la supression est validée on retourne sur la page d'acceuil
-     if ($stmt->execute()) {
-         
-         header("Location: index.php");
-       }
+    $stmt = $pdo->prepare("DELETE FROM phyto WHERE id = :id");
+    $stmt->bindParam(":id", $id);
+
+    // si la supression est validée on retourne sur la page d'acceuil
+    if ($stmt->execute()) {
+
+        header("Location: index.php");
     }
+}
+// Récupération des effets
+$stmt2 = $pdo->query("SELECT * FROM effet");
+$effets = $stmt2->fetchAll(PDO::FETCH_CLASS, "Effet");
+
+foreach ($effets as $effet) {
+    if ($effet->getId() == $plant->getEffet()) {
+        $effetname = $effet->getName();
+    }
+}
 
 require_once "./includes/header.php";
 ?>
@@ -58,7 +67,7 @@ require_once "./includes/header.php";
         </div>
 
         <div class="w-2/3">
-            <h2 class="text-4xl font-light text-orange-500"><?= $plant->getEffet() ?></h2>
+        <h2 class="text-4xl font-light text-orange-500"><?= $effetname ?></h2>
             <h3 class="text-4xl text-green-500"><?= $plant->getPrice() ?> €</h3>
 
             <div class="mt-10">
