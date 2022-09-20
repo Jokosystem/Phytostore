@@ -2,7 +2,7 @@
 require_once "./src/Phyto.php";
 require_once "./includes/header.php";
 ?>
-<h1 class="text-5xl text-green-800 text-center mb-5">BLOG</h1>
+<h1 class="text-4xl text-green-600 text-center mb-5">BLOG</h1>
 <br />
 <marquee class="text-3xl text-green-700 mb-10" behavior="alternate" direction="right">Retrouvez nos partenaires en Phytothérapie !</marquee>
 <section>
@@ -87,7 +87,31 @@ require_once "./includes/header.php";
                 </figcaption>
             </figure>
         </article>
-
-
-        <?php
-        require_once "./includes/footer.php"; ?>
+    </div>
+</section>
+<br />
+<hr>
+<!--Zone de commentaires utilisateur -->
+<form action="post">
+    <fieldset>
+        <legend class="text-center text-green-600 mt-2">
+            Quelle a été votre expérience sur Phyto BCD ?
+        </legend>
+        <br />
+        <p>
+            <label class="block mb-2 mt-2" for="description">Commentaires :</label>
+            <textarea class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" name="description" id="description" rows="8"></textarea>
+        </p>
+        <br />
+        <p>
+            <label class="mr-2 mb-5 mt-2" for="email">Veuillez entrer votre adresse Email :</label>
+            <input class="shadow-sm" type="email" name="email" id="email" placeholder="Adresse mail">
+        </p>
+    </fieldset>
+    <button class="py-2 px-4 rounded p-4 bg-green-500 hover:bg-green-700 text-white font-semibold">
+        <i class="fa-solid fa-file-circle-plus mr-2"></i>Envoyer</button>
+</form>
+<br />
+<?php
+require "./components/caroussel_footer.php";
+require_once "./includes/footer.php"; ?>

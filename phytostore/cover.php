@@ -41,7 +41,7 @@
         </nav>
     </div>
     <div class="container1">
-        <h1 id="page-1" class="text-white"><a class="text-decoration-none" href="index.php">Bienvenue<br />sur<br />PhytoBCD</a></h1>
+        <h1 id="page-1" class="text-white"><a class="text-decoration-none" href="index.php">Bienvenue<br />sur<br />Phyto BCD</a></h1>
     </div>
     <div class="container2">
         <h1 id="page-2" class="text-white"><a class="text-decoration-none" href="">Nouveau ?<br />Inscrivez-vous</a></h1>
