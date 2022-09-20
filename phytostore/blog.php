@@ -4,7 +4,7 @@ require_once "./includes/header.php";
 ?>
 <h1 class="text-5xl text-green-800 text-center mb-5">BLOG</h1>
 <br />
-<marquee class="text-3xl text-green-700 mb-20" behavior="alternate" direction="right">Retrouvez nos partenaires en Phytothérapie !</marquee>
+<marquee class="text-3xl text-green-700 mb-10" behavior="alternate" direction="right">Retrouvez nos partenaires en Phytothérapie !</marquee>
 <section>
     <div class="row justify-center">
 

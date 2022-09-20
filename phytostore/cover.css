@@ -32,7 +32,7 @@ div.at-containerlogo {
       opacity: 1;
     }
   }
-  
+  /*======================================================================*/
   /* cover nav*/
   
   .at-itemnavcover {
@@ -60,6 +60,7 @@ div.at-containerlogo {
       opacity: 1;
     }
   }
+  /*======================================================================*/
   /*cover bg*/
   *
   {
@@ -109,7 +110,7 @@ div.at-containerlogo {
     vertical-align: middle;
     border: black 1px solid;
   }
-  
+  /*======================================================================*/
 .cadre {
   border: black 4px solid;
   background-image: url(https://fr.freepik.com/photos-premium/vraies-feuilles-monstera-fond-blanc-idees-concepts-nature-tropicale-botanique-television-lay-vue-dessus_22261895.htm
