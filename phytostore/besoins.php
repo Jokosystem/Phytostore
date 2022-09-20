@@ -2,7 +2,6 @@
 require_once "./src/Phyto.php";
 require_once "./src/Effet.php";
 
-// nous allons intancier notre méthode
 $plant = new Phyto();
 
 
@@ -16,13 +15,11 @@ $pdo = new PDO("mysql:host=localhost;dbname=phytostore;charset=utf8", "root", ""
 $stmt = $pdo->query("SELECT * FROM effet");
 $effets = $stmt->fetchAll(PDO::FETCH_CLASS, "Effet");
 
-
-
-
-
 ?>
 
 <h1 class="text-center text-3xl text-green-600 mb-20">Mes Besoins</h1>
+<hr>
+<br />
 
 
 <?php foreach ($effets as $effet) : ?>
@@ -34,7 +31,7 @@ $effets = $stmt->fetchAll(PDO::FETCH_CLASS, "Effet");
       </br>
       <div>
         <a href="index.php?id=<?= $effet->getId() ?>" class="py-2 px-4 rounded bg-green-400 hover:bg-green-600 text-white">
-          <i class="fa-solid fa-list mr-2"></i>Produits associés
+          <i class="fa-solid fa-list mr-2"></i>Remèdes
         </a>
       </div>
     </div>

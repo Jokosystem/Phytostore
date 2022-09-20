@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="./cover.css">
 
-    <title>Phytostore_cover</title>
+    <title>PhytoBCD_cover</title>
 </head>
 
 <body>

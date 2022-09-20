@@ -29,9 +29,9 @@ $pdo = $database->connection();
     <link rel="stylesheet" href="./phyto.css">
     <!--css de la page blog -->
     <link rel="stylesheet" href="./blog.css">
-    
-    <title>Phytostore</title>
-    
+
+    <title>PhytoBCD</title>
+
 </head>
 
 <body class="bg-slate-50">
@@ -51,7 +51,7 @@ $pdo = $database->connection();
                     <div class='at-container6'>
                         <!-- animation -->
                         <h1 class='at-item6'>
-                            
+
                             <a class="text-xl text-green-600 hover:text-red-700" href="create.php">
                                 <i class="fa-solid fa-circle-plus mr-2"></i>Ajouter un produit
                             </a>
