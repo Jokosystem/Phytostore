@@ -3,7 +3,6 @@
 require_once "./vendor/autoload.php";
 require_once dirname(__DIR__) . "/src/Database.php";
 
-
 $whoops = new \Whoops\Run;
 $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
 $whoops->register();
@@ -115,7 +114,7 @@ $pdo = $database->connection();
                     </div>
                 </li>
                 <li>
-                    <div class="text-white text-2xl mr-10">
+                    <div class="text-white text-2xl mr-5 ml-5">
                         <a class="text-decoration-none hover:text-yellow-500" href="index.php">
                             Nos Produits
                         </a>
@@ -124,14 +123,11 @@ $pdo = $database->connection();
                 <li>
                     <div class="text-white text-2xl mr-10">
                         <a class="text-decoration-none hover:text-yellow-500" href="blog.php">
-                            Blog
+                            Le Blog
                         </a>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
-    <!-- <div id="title">
-            <h1 class="text-3xl mb-20 -mt-10">Phytothérapie</h1>
-        </div> -->
     <main class="container mx-auto">

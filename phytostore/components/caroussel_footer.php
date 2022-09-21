@@ -34,7 +34,7 @@
 
             <!-- Single item -->
             <div class="carousel-item relative w-full">
-                <a href="https://www.philiance.com/index.html" alt="philiance"><img src="./images/philiance_ban.png" class="flex w-full" alt="philiance_ban" /></a>
+                <a href="https://www.philiance.com/" alt="philiance"><img src="./images/philiance_ban.png" class="flex w-full" alt="philiance_ban" /></a>
                 <div class="carousel-caption hidden md:block absolute text-center">
                     <h5 class="text-xl"></h5>
                     <p></p>

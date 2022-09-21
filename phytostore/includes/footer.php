@@ -28,6 +28,10 @@
     </div>
     <div class="w-1/3" id="footer2">
         <div class="text-center text-white text-xl pt-5">
+            <a class="hover:text-yellow-500" href="index.php">
+                <h2>Page d'accueil</h2>
+            </a>
+            <br />
             <a class="hover:text-yellow-500" href="ustory.php">
                 <h2>À Propos de "PhytoBCD"</h2>
             </a>
