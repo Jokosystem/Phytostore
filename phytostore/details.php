@@ -7,7 +7,7 @@ $plant = new Phyto();
 
 
 
-$pdo = new PDO("mysql:host=localhost;dbname=phytostore;charset=utf8", "root", "", [
+$pdo = new PDO("mysql:host=localhost;dbname=phytostore;charset-utf8", "root", "", [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 
 ]);
@@ -71,7 +71,7 @@ require_once "./includes/header.php";
             <h3 class="text-4xl text-green-500"><?= $plant->getPrice() ?> €</h3>
 
             <div class="mt-10">
-                <p>Description :</p>
+                <p class="text-2xl text-green-800 font-bold">Description</p>
                 <hr class="my-6" />
                 <p><?= $plant->getDescription() ?></p>
             </div>

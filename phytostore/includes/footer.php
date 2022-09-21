@@ -4,11 +4,13 @@
 
 
 <footer>
-    
+
     <div class="w-1/3 mt-20" id="footer1">
         <div>
-            <div>
-                <h2 class="text-center text-white text-2xl mt-5">Suivez-nous !</h2>
+            <div class="text-center text-white text-2xl mt-5">
+                <a class="hover:text-yellow-500" href="#">
+                    <h2>Suivez-nous !</h2>
+                </a>
             </div>
             <br />
             <div id="logos">
@@ -25,27 +27,27 @@
         </div>
     </div>
     <div class="w-1/3" id="footer2">
-        <div>
-            <a href="ustory.php">
-                <h2 class="text-center text-white text-xl pt-5">À Propos de "PhytoBCD"</h2>
+        <div class="text-center text-white text-xl pt-5">
+            <a class="hover:text-yellow-500" href="ustory.php">
+                <h2>À Propos de "PhytoBCD"</h2>
             </a>
         </div>
-        <div>
-            <a href="contact.php">
-                <h2 class="text-center text-white text-xl pt-5">Nous Contacter</h2>
+        <div class="text-center text-white  text-xl pt-5">
+            <a class="hover:text-yellow-500" href="contact.php">
+                <h2>Nous Contacter</h2>
             </a>
         </div>
-        <div>
-            <a href="cgu.php#ML">
-                <h2 class="text-white text-xl pt-5">Mentions Légales</h2>
+        <div class="text-white text-xl pt-5">
+            <a class="hover:text-yellow-500" href="cgu.php#ML">
+                <h2>Mentions Légales</h2>
             </a>
             <br />
-            <a href="cgu.php#PC">
-                <h2 class="text-white text-xl">Politique de Confidentialité</h2>
+            <a class="hover:text-yellow-500" href="cgu.php#PC">
+                <h2>Politique de Confidentialité</h2>
             </a>
             <br />
-            <a href="cgu.php">
-                <h2 class="text-white text-xl">Conditions générales d'utilisation</h2>
+            <a class="hover:text-yellow-500" href="cgu.php">
+                <h2>Conditions générales d'utilisation</h2>
             </a>
         </div>
     </div>

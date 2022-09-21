@@ -5,9 +5,9 @@ require_once "./src/Effet.php";
 $plant = new Phyto();
 //nous verifions si notre query ID existe bien et si elle a une valeur numérique
 if (!isset($_GET["id"]) || !is_numeric($_GET["id"])) {
-    //on redirige vers la pasge d'acceuil
-    header('Location:index.php');
-    exit();
+  //on redirige vers la pasge d'acceuil
+  header('Location:index.php');
+  exit();
 }
 // on a besoin du lien avec la BDD pour supprimer / modifier
 require_once "./vendor/autoload.php";
@@ -22,14 +22,14 @@ $database = new Database();
 // puis on invoque notre méthode connection()
 $pdo = $database->connection();
 
-$id=$_GET["id"];
+$id = $_GET["id"];
 $stmt = $pdo->query("SELECT * FROM phyto WHERE id = $id");
 $stmt->setFetchMode(PDO::FETCH_CLASS, 'Phyto');
 $plant = $stmt->fetch();
 //verification si notre id n'estxites pas on est redirigé vers notre page d'acceuil
-if (!$plant){
-    header('Location:index.php');
-    exit();
+if (!$plant) {
+  header('Location:index.php');
+  exit();
 }
 
 //Nous allons traiter les données si nous recevons une requête html de type POST
@@ -44,12 +44,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
 
   ]);
 
-  $error = [];// notre error est un tableau vide
+  $error = []; // notre error est un tableau vide
   if (empty($_POST['plante']) || empty($_POST['effet']) || empty($_POST['image']) || empty($_POST['price']) || empty($_POST['description'])) {
     $error = ["OUPS! Veuillez remplir tous les champs."];
   }
   // on vérifie que notre input pour le prix est de type float/numérique
-   else if (!is_numeric($_POST['price'])) {
+  else if (!is_numeric($_POST['price'])) {
     $error = ["OULA! Merci d'indiquer un prix valide."];
   }
   // si mon tableau est vide
@@ -99,49 +99,50 @@ require_once "./includes/header.php";
 <form method="post" class="w-1/2 mx-auto bg-white border rounded p-4 shadow-md">
   <h1 class="text-6xl font-light text-center mb-10 uppercase">Modifier une plante</h1>
 
-  <?php if (isset($error) && count($error) > 0 ) : ?>
+  <?php if (isset($error) && count($error) > 0) : ?>
     <div class="bg-red-600 text-white py-4 px-8 rounded border border-green-900 mb-10">
       <p> <?= $error[0] ?> </p>
     </div>
   <?php endif   ?>
 
   <div class="mb-4">
-    <label class="block mb-2" for="plante">Nom de la plante:</label>
-    <input value="<?= $plant-> getPlante() ?>" class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" type="text" name="plante" id="plante">
+    <label class="block mb-2" for="plante">Nom de la plante :</label>
+    <input value="<?= $plant->getPlante() ?>" class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" type="text" name="plante" id="plante">
   </div>
 
   <div class="mb-4">
     <label for="effet" class="block mb-2  font-small text-black">Selectionner un Effet :</label>
     <select name="effet" id="effet" class="bg-green-50 border border-green-300 text-green-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-white dark:border-green-300 dark:placeholder-green-400 dark:text-black dark:focus:ring-green-500 dark:focus:border-green-500">
       <?php
-      foreach($effets as $effet) 
-      {
-        echo "<option value=".$effet->getId().">".$effet->getName()."</option>";
+      foreach ($effets as $effet) {
+        echo "<option value=" . $effet->getId() . ">" . $effet->getName() . "</option>";
       }
-      
+
       ?>
     </select>
   </div>
 
   <div class="mb-4">
-    <label class="block mb-2" for="image">Image de la plante:</label>
-    <input value="<?= $plant-> getImage() ?>" class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" type="text" name="image" id="image">
+    <label class="block mb-2" for="image">Image de la plante :</label>
+    <input value="<?= $plant->getImage() ?>" class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" type="text" name="image" id="image">
   </div>
 
   <div class="mb-4">
-    <label class="block mb-2" for="price">Prix:</label>
-    <input value="<?= $plant-> getPrice() ?>" class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" type="number" step="0.01" name="price" id="price">
+    <label class="block mb-2" for="price">Prix :</label>
+    <input value="<?= $plant->getPrice() ?>" class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" type="number" step="0.01" name="price" id="price">
   </div>
 
   <div class="mb-4">
-    <label class="block mb-2" for="description">Description:</label>
-    <textarea  class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" name="description" id="description" rows="10"><?= $plant-> getDescription() ?>"</textarea>
+    <label class="block mb-2" for="description">Description :</label>
+    <textarea class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" name="description" id="description" rows="10"><?= $plant->getDescription() ?>"</textarea>
   </div>
 
 
-  <button class="w-full rounded p-4 bg-green-400 hover:bg-green-600 text-white font-semibold">
-    <i class="fa-solid fa-file-circle-plus mr-2"></i>Envoyer
-  </button>
+  <div class="w-100 flex justify-center">
+    <button class="w-80 rounded p-4  bg-green-400 hover:bg-green-600 text-white font-semibold">
+      <i class="fa-solid fa-file-circle-plus mr-2"></i>Envoyer
+    </button>
+  </div>
 </form>
 
 <?php

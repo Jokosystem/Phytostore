@@ -41,13 +41,13 @@
         </nav>
     </div>
     <div class="container1">
-        <h1 id="page-1" class="text-white"><a class="text-decoration-none" href="index.php">Bienvenue<br />sur<br />Phyto BCD</a></h1>
+        <h1 id="page-1" class="text-white "><a class="text-decoration-none hover:text-yellow-500" href="index.php">Bienvenue<br />sur<br />Phyto BCD</a></h1>
     </div>
     <div class="container2">
-        <h1 id="page-2" class="text-white"><a class="text-decoration-none" href="">Nouveau ?<br />Inscrivez-vous</a></h1>
+        <h1 id="page-2" class="text-white"><a class="text-decoration-none hover:text-yellow-500" href="">Nouveau ?<br />Inscrivez-vous</a></h1>
     </div>
     <div class="container3">
-        <h1 id="page-3" class="text-white"><a class="text-decoration-none" href="">Déjà inscrit ?<br />Identifiez-vous</a></h1>
+        <h1 id="page-3" class="text-white"><a class="text-decoration-none hover:text-yellow-500" href="">Déjà inscrit ?<br />Identifiez-vous</a></h1>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

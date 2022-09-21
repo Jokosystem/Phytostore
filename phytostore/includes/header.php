@@ -104,23 +104,29 @@ $pdo = $database->connection();
             </ul>
         </div>
     </nav>
-    <nav id="navcategory" class="shadow-md py-4 mb-20">
+    <nav id="navcategory" class="py-3 mb-20">
         <div class="container mx-auto center-block">
             <ul class="list-none flex gap-6 justify-between items-center">
                 <li>
-                    <a class="text-white text-2xl ml-10" href="besoins.php">
-                        Mes Besoins
-                    </a>
+                    <div class="text-white text-2xl ml-10">
+                        <a class="text-decoration-none hover:text-yellow-500" href="besoins.php">
+                            Mes Besoins
+                        </a>
+                    </div>
                 </li>
                 <li>
-                    <a class="text-white text-2xl" href="index.php">
-                        Nos Produits
-                    </a>
+                    <div class="text-white text-2xl mr-10">
+                        <a class="text-decoration-none hover:text-yellow-500" href="index.php">
+                            Nos Produits
+                        </a>
+                    </div>
                 </li>
                 <li>
-                    <a class="text-white text-2xl mr-10" href="blog.php">
-                        Blog
-                    </a>
+                    <div class="text-white text-2xl mr-10">
+                        <a class="text-decoration-none hover:text-yellow-500" href="blog.php">
+                            Blog
+                        </a>
+                    </div>
                 </li>
             </ul>
         </div>

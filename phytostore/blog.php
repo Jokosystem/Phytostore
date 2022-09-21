@@ -2,7 +2,7 @@
 require_once "./src/Phyto.php";
 require_once "./includes/header.php";
 ?>
-<h1 class="text-4xl text-green-600 text-center mb-5">BLOG</h1>
+<h1 class="text-4xl text-green-600 text-center mb-5">Le Blog</h1>
 <br />
 <marquee class="text-3xl text-green-700 mb-10" behavior="alternate" direction="right">Retrouvez nos partenaires en Phytothérapie !</marquee>
 <section>

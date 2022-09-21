@@ -111,10 +111,11 @@ require_once "./includes/header.php";
         <textarea class="border rounded border-green-300 py-2 px-4 w-full outline-none shadow-sm" name="description" id="description" rows="10"></textarea>
       </div>
 
-
-      <button class="w-full rounded p-4 bg-green-400 hover:bg-green-600 text-white font-semibold">
-        <i class="fa-solid fa-file-circle-plus mr-2"></i>Envoyer
-      </button>
+      <div class="w-100 flex justify-center">
+        <button class="w-80 rounded p-4  bg-green-400 hover:bg-green-600 text-white font-semibold">
+          <i class="fa-solid fa-file-circle-plus mr-2"></i>Envoyer
+        </button>
+      </div>
     </form>
   </div>
 </div>
