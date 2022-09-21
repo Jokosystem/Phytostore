@@ -38,7 +38,7 @@ $pdo = $database->connection();
     <nav id="nav" class="shadow-md py-5 bg-white">
         <div class="container mx-auto flex justify-between items-center">
 
-            <a href="index.php">
+            <a href="index.php" alt="Phyto_BCD_logo">
                 <div class='at-container'>
                     <!--animation logo -->
                     <div class='at-item'>

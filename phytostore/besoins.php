@@ -21,13 +21,10 @@ $effets = $stmt->fetchAll(PDO::FETCH_CLASS, "Effet");
 <hr>
 <br />
 
-
-
-
 <?php foreach ($effets as $effet) : ?>
   <div class='at-container8'>
     <div class='at-item8'>
-      <div class="bg-white flex justify-between items-center shadow-sm mb-6 p-6">
+      <div class="bg-white flex justify-between items-center shadow-sm mb-3 p-6">
         <img id="imgcard" class="w-80" src="<?= $effet->getImage() ?>" alt="effet">
         <div class="w-1/3">
           <h3 class="text-4xl font-light text-orange-500"><?= $effet->getName() ?></h3>

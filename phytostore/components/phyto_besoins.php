@@ -1,5 +1,5 @@
 <!--cartes de blog-->
-<div class="bg-white flex justify-between items-center shadow-sm mb-6 p-6">
+<div class="bg-white flex justify-between items-center shadow-sm mb-3 p-6">
     <img class="w-36" src="<?= $phytoInter->getImage() ?>" alt="">
     <div class="w-1/3">
         <h2 class="text-4xl uppercase"><?= $phytoInter->getPlante() ?></h2>
