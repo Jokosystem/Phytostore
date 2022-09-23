@@ -20,7 +20,7 @@ div.at-container {
 .at-item {
   width: 350px;
   height: 100px;
-  background: url(./images/LOGO_phyto_bcd2.png) no-repeat;
+  background: url(../images/LOGO_phyto_bcd2.png) no-repeat;
   animation-name: tilt-in-right-1;
   animation-duration: 1.5s;
   animation-timing-function: ease;

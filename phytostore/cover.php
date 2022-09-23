@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
 
-    <link rel="stylesheet" href="./cover.css">
+    <link rel="stylesheet" href="./css/cover.css">
 
     <title>PhytoBCD_cover</title>
 </head>
@@ -44,10 +44,10 @@
         <h1 id="page-1" class="text-white "><a class="text-decoration-none hover:text-yellow-500" href="index.php">Bienvenue<br />sur<br />Phyto BCD</a></h1>
     </div>
     <div class="container2">
-        <h1 id="page-2" class="text-white"><a class="text-decoration-none hover:text-yellow-500" href="">Nouveau ?<br />Inscrivez-vous</a></h1>
+        <h1 id="page-2" class="text-white"><a class="text-decoration-none hover:text-yellow-500" href="register.php">Nouveau ?<br />Inscrivez-vous</a></h1>
     </div>
     <div class="container3">
-        <h1 id="page-3" class="text-white"><a class="text-decoration-none hover:text-yellow-500" href="">Déjà inscrit ?<br />Identifiez-vous</a></h1>
+        <h1 id="page-3" class="text-white"><a class="text-decoration-none hover:text-yellow-500" href="login.php">Déjà inscrit ?<br />Identifiez-vous</a></h1>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

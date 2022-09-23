@@ -1,23 +1,13 @@
 <?php
+require_once "./includes/header.php";
 require_once "./src/Phyto.php";
 require_once "./src/Effet.php";
 
 // nous allons intancier notre méthode
- $plant = new Phyto();
-
-
-require_once "./includes/header.php";
-
-$pdo = new PDO("mysql:host=localhost;dbname=phytostore;charset=utf8", "root","",[
-PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-
-]);
+$plant = new Phyto();
 
 $stmt = $pdo->query("SELECT * FROM effet");
 $effets = $stmt->fetchAll(PDO::FETCH_CLASS, "Effet");
-
-
-
 
 
 ?>

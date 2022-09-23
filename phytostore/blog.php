@@ -92,7 +92,7 @@ require_once "./includes/header.php";
 <br />
 <hr>
 <!--Zone de commentaires utilisateur -->
-<form action="post">
+<!-- <form action="post">
     <fieldset>
         <legend class="text-center text-green-600 mt-2">
             Quelle a été votre expérience sur Phyto BCD ?
@@ -111,7 +111,7 @@ require_once "./includes/header.php";
     <button class="py-2 px-4 rounded p-4 bg-green-500 hover:bg-green-700 text-white font-semibold">
         <i class="fa-solid fa-file-circle-plus mr-2"></i>Envoyer</button>
 </form>
-<br />
+<br /> -->
 <?php
 require "./components/caroussel_footer.php";
 require_once "./includes/footer.php"; ?>
