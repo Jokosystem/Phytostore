@@ -4,7 +4,7 @@ require_once "User.php";
 
 class UserModel extends MainModel
 {
-  /**
+   /**
    * Méthode pour chercher un utilisateur
    */
   public function searchUser()
@@ -37,7 +37,8 @@ class UserModel extends MainModel
    */
   public function setupUser()
   {
-    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    if ($_SERVER["REQUEST_METHOD"] === "POST")
+    {
       $data = [
         "firstname" => "",
         "errorFirstname" => "",
@@ -85,7 +86,8 @@ class UserModel extends MainModel
         $data["errorLastname"] = "Merci de remplir votre nom";
       }
 
-      if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+      {
         $data["errorEmail"] = "Merci de remplir un email valide";
       }
 
@@ -105,8 +107,8 @@ class UserModel extends MainModel
         $data["errorCity"] = "Merci de remplir votre ville";
       }
 
-      if (empty($password)) {
-        $data["errorPassword"] = "Merci de remplir votre mot de passe";
+      if (empty($password) || strlen($password) < 6) {
+        $data["errorPassword"] = "Merci de remplir votre mot de passe [6 caractères minimum]";
       }
 
       if ($password !== $confirm) {
@@ -119,7 +121,8 @@ class UserModel extends MainModel
 
       // Si une erreur n'est pas vide (empty), c'est qu'on a une erreur
       // On retourne alors notre array $data, et on ne fait rien d'autre
-      if (!empty($data["errorFirstname"]) || !empty($data["errorLastname"]) || !empty($data["errorEmail"]) || !empty($data["errorAddress"]) || !empty($data["errorPostal"]) || !empty($data["errorCity"]) || !empty($data["errorPassword"]) || !empty($data["errorConfirm"])) {
+      if (!empty($data["errorFirstname"]) || !empty($data["errorLastname"]) || !empty($data["errorEmail"]) || !empty($data["errorAddress"]) || !empty($data["errorPostal"]) || !empty($data["errorCity"]) || !empty($data["errorPassword"]) || !empty($data["errorConfirm"]))
+      {
         return $data;
       }
 
@@ -131,7 +134,7 @@ class UserModel extends MainModel
       $address = filter_var($address, FILTER_SANITIZE_STRING);
       $postal = filter_var($postal, FILTER_SANITIZE_STRING);
       $city = filter_var($city, FILTER_SANITIZE_STRING);
-
+      
       // On veut hasher le mot de passe
       $password = password_hash($password, PASSWORD_DEFAULT);
 
@@ -164,7 +167,8 @@ class UserModel extends MainModel
   public function updateUser()
   {
     $user = getLoggedUser();
-    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    if ($_SERVER["REQUEST_METHOD"] === "POST")
+    {
       $data = [
         "errorFirstname" => "",
         "errorLastname" => "",
@@ -190,7 +194,8 @@ class UserModel extends MainModel
         $data["errorLastname"] = "Merci de remplir votre nom";
       }
 
-      if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+      {
         $data["errorEmail"] = "Merci de remplir un email valide";
       }
 
@@ -212,7 +217,8 @@ class UserModel extends MainModel
 
       // Si une erreur n'est pas vide (empty), c'est qu'on a une erreur
       // On retourne alors notre array $data, et on ne fait rien d'autre
-      if (!empty($data["errorFirstname"]) || !empty($data["errorLastname"]) || !empty($data["errorEmail"]) || !empty($data["errorAddress"]) || !empty($data["errorPostal"]) || !empty($data["errorCity"])) {
+      if (!empty($data["errorFirstname"]) || !empty($data["errorLastname"]) || !empty($data["errorEmail"]) || !empty($data["errorAddress"]) || !empty($data["errorPostal"]) || !empty($data["errorCity"]))
+      {
         return $data;
       }
 
@@ -265,12 +271,13 @@ class UserModel extends MainModel
    */
   public function loginUser()
   {
-    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    if ($_SERVER["REQUEST_METHOD"] === "POST") 
+    {
       $error = "Identifiants invalides. Merci de réessayer.";
 
       $email = $_POST["email"];
       $password = $_POST["password"];
-
+      
       // 1ère étape: Vérifier en BDD si cet email existe
       // 2de étape: si l'email existe, vérifier le mot de passe
       $query = $this->pdo->query("SELECT * FROM users WHERE email = '$email'");
@@ -294,7 +301,8 @@ class UserModel extends MainModel
           "lastname" => $user->getLastname(),
         ];
         $this->redirect();
-      } else return $error;
+      } 
+      else return $error;
     }
   }
 
@@ -303,7 +311,8 @@ class UserModel extends MainModel
    */
   public function logoutUser()
   {
-    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    if ($_SERVER["REQUEST_METHOD"] === "POST")
+    {
       // Nous allons détruire notre session
       // et rediriger notre utilisateur vers la page de login
       unset($_SESSION["phytostore_logged_user"]);
@@ -317,7 +326,8 @@ class UserModel extends MainModel
    */
   public function modifyPassword()
   {
-    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    if ($_SERVER["REQUEST_METHOD"] === "POST")
+    {
       $current = $_POST["current"];
       $newPassword = $_POST["newPassword"];
       $confirm = $_POST["confirm"];
@@ -325,7 +335,8 @@ class UserModel extends MainModel
       // Nous allons vérifier si le mdp $current correspond
       // à celui présent en BDD
       $user = $this->searchUser();
-      if (password_verify($current, $user->getPassword()) && $newPassword === $confirm) {
+      if (password_verify($current, $user->getPassword()) && $newPassword === $confirm)
+      {
         $newPassword = password_hash($newPassword, PASSWORD_DEFAULT);
         $query = $this->pdo->prepare("UPDATE users SET password = :password");
         $success = $query->execute([":password" => $newPassword]);

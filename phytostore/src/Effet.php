@@ -22,19 +22,12 @@ class Effet{
 
     public function getImage()
     {
-        return $this->image;
+         return $this->image;
     }
 
-    /**
-     * Set the value of image
-     *
-     * @return  self
-     */ 
     public function setImage($image)
     {
-        $this->image = $image;
-
-        return $this;
+        $this->name = $image;
     }
 }
 

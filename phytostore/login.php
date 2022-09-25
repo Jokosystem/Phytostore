@@ -11,7 +11,8 @@ if (getLoggedUser())
 }
 
 ?>
-
+<h1 class="text-4xl text-center text-green-600 mb-10">Heureux de vous revoir !</h1>
+<h2 class="text-center text-2xl text-green-600 mb-2">Nouveau ? <a class="hover:text-green-700" href="register.php">S'inscrire...</a></h2>
 <form method="post" class="w-1/2 mx-auto bg-white border rounded p-4 shadow-md">
   <h1 class="text-5xl font-light text-center text-green-600 mb-10 uppercase">Se connecter</h1>
 

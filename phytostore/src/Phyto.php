@@ -9,6 +9,7 @@ class Phyto
     private $image;
     private $price;
     private $description;
+    private $quantity = 1;
 
 
 
@@ -51,9 +52,10 @@ class Phyto
     {
         return number_format($this->price, 2, ".");
     }
+
     public function setPrice($price)
     {
-        return $this->price = $price;
+        $this->price = $price;
     }
 
     public function getDescription()
@@ -64,5 +66,17 @@ class Phyto
     public function setDescription($description)
     {
         $this->description = $description;
+    }
+
+    public function getQuantity()
+    {
+        return $this->quantity;
+    }
+
+    public function setQuantity($quantity)
+    {
+        $this->quantity = $quantity;
+
+        return $this;
     }
 }

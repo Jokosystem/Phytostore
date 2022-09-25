@@ -90,11 +90,16 @@ class PhytoModel extends MainModel
       if ($_SERVER["REQUEST_METHOD"] === "POST")
       {
         $id = $this->checkQueryId();
-        $stmt = $this->pdo->prepare("DELETE FROM phyto WHERE id = :id");
-        $stmt->bindParam(":id", $id);
+
+        // Delete le produit dans tous les paniers de chaque utilisateur
+        $stmt1 = $this->pdo->prepare("DELETE FROM basket_plants WHERE plant_id = :id");
+        $stmt1->bindParam(":id", $id);
+        // Delete le produit 
+        $stmt2 = $this->pdo->prepare("DELETE FROM phyto WHERE id = :id");
+        $stmt2->bindParam(":id", $id);
   
         // Si la suppression est validée, nous retournons sur la page d'accueil
-        if ($stmt->execute())
+        if ($stmt1->execute() && $stmt2->execute())
         {
           $this->redirect();
         }

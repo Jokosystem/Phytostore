@@ -121,7 +121,7 @@ class BasketModel extends MainModel
       ");
       $stmt->execute([":quantity" => $plant["quantity"] - 1, ":plant_id" => $plantId]);
     }
-    else if ($plant["quantity"]  === "1")
+    else if ($plant["quantity"]  == "1")
     {
       $stmt = $this->pdo->prepare("
         DELETE FROM basket_plants WHERE plant_id = :plant_id AND basket_id = :basket_id
@@ -129,6 +129,6 @@ class BasketModel extends MainModel
       $stmt->execute([":plant_id" => $plantId, ":basket_id" => $basket["id"]]);
     }
 
-    $this->redirect("basket.php");
+    $this->redirect("http://localhost/phytostore/phytostore/basket.php");
   }
 }

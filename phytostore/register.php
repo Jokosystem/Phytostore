@@ -1,18 +1,21 @@
 <?php
 require_once "./includes/header.php";
-require_once "./src/UserModel.php";
-
-$userModel = new UserModel();
-$data = $userModel->setupUser();
-
 if (getLoggedUser())
 {
   header("Location: index.php");
   exit;
 }
 
+require_once "./src/UserModel.php";
+$userModel = new UserModel();
+$data = $userModel->setupUser();
 ?>
 
+
+<h1 class="text-4xl text-center text-green-600 mb-5">Bienvenue !</h1>
+
+<h1 class="text-4xl text-center text-green-600 mb-10">Enregistrer-vous pour profiter pleinement de notre site !</h1>
+<h2 class="text-center text-2xl text-green-600 mb-2">Déjà inscrit ? <a class="hover:text-green-700" href="login.php">Se connecter...</a></h2>
 <form method="post" class="w-1/2 mx-auto bg-white border text-green-600 rounded p-4 shadow-md">
   <h1 class="text-6xl font-light text-center mb-10 uppercase">S'enregistrer</h1>
 
@@ -70,14 +73,14 @@ if (getLoggedUser())
   <div class="flex gap-6 mb-4">
     <div class="w-1/2">
       <label class="block mb-2" for="password"> Mot de passe</label>
-      <input class="border rounded border-gray-100 py-2 px-4 w-full outline-none shadow-sm" type="password" name="password" id="password">
+      <input class="border rounded border-gray-100 py-2 px-4 w-full outline-none shadow-sm" minlength="6" type="password" name="password" id="password">
       <?php if(isset($data) && !empty($data["errorPassword"])): ?>
         <p class="text-red-400 text-sm"><?= $data["errorPassword"] ?></p>
       <?php endif ?>
     </div>
     <div class="w-1/2">
       <label class="block mb-2" for="confirm">Confirmer Mot de passe</label>
-      <input class="border rounded border-gray-100 py-2 px-4 w-full outline-none shadow-sm" type="password" name="confirm" id="confirm">
+      <input class="border rounded border-gray-100 py-2 px-4 w-full outline-none shadow-sm" minlength="6" type="password" name="confirm" id="confirm">
       <?php if(isset($data) && !empty($data["errorConfirm"])): ?>
         <p class="text-red-400 text-sm"><?= $data["errorConfirm"] ?></p>
       <?php endif ?>

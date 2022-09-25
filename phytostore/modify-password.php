@@ -11,17 +11,17 @@ $userModel->modifyPassword();
 
   <div class="mb-4">
     <label class="block mb-2" for="current">Mot de passe actuel</label>
-    <input class="border rounded border-gray-100 py-2 px-4 w-full outline-none shadow-sm" type="password" name="current" id="current">
+    <input class="border rounded border-gray-100 py-2 px-4 w-full outline-none shadow-sm" minlength="6" type="password" name="current" id="current">
   </div>
 
   <div class="mb-4">
     <label class="block mb-2" for="newPassword">Nouveau mot de passe</label>
-    <input class="border rounded border-gray-100 py-2 px-4 w-full outline-none shadow-sm" type="password" name="newPassword" id="newPassword">
+    <input class="border rounded border-gray-100 py-2 px-4 w-full outline-none shadow-sm" minlength="6" type="password" name="newPassword" id="newPassword">
   </div>
 
   <div class="mb-4">
     <label class="block mb-2" for="confirm">Confirmer le mot de passe</label>
-    <input class="border rounded border-gray-100 py-2 px-4 w-full outline-none shadow-sm" type="password" name="confirm" id="confirm">
+    <input class="border rounded border-gray-100 py-2 px-4 w-full outline-none shadow-sm" minlength="6" type="password" name="confirm" id="confirm">
   </div>
 
   <button class="w-full rounded p-4 bg-green-400 hover:bg-green-600 text-white font-semibold">

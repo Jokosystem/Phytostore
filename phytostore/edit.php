@@ -32,7 +32,7 @@ $effets = $stmt->fetchAll(PDO::FETCH_CLASS, "Effet");
   </div>
 
   <div class="mb-4">
-    <label for="effet" class="block mb-2  font-small text-black">Selectionner un Effet :</label>
+    <label for="effet" class="block mb-2  font-small text-black">Sélectionner un Effet :</label>
     <select name="effet" id="effet" class="bg-green-50 border border-green-300 text-green-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-white dark:border-green-300 dark:placeholder-green-400 dark:text-black dark:focus:ring-green-500 dark:focus:border-green-500">
       <?php
       foreach ($effets as $effet) {

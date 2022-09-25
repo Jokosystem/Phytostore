@@ -69,8 +69,8 @@ $pdo = $database->connection();
                         <div class='at-container6'>
                             <!-- animation slide -->
                             <h1 class='at-item6'>
-                                <a class="text-xl text-green-600 hover:text-green-700" href="profile.php">
-                                    <i class="fa-solid fa-user mr-2"></i> Bonjour <?= $user["firstname"] ?>
+                                <a class="text-xl text-center text-green-600 hover:text-green-700" href="profile.php">
+                                    <i class="fa-solid fa-user mr-2"></i> Bonjour  <?= $user["firstname"] ?>
                                 </a>
                             </h1>
                         </div>
