@@ -7,6 +7,14 @@
   background-color: #046A1B;
 
 }
+
+/*reponsive nav*/
+
+@media screen and (max-width: 425px) {
+  #navu {
+    display: none;
+  }
+}
 /*======================================================================*/
 /*animation logo_PhytoBCD*/
 div.at-container {

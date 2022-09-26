@@ -317,7 +317,7 @@ class UserModel extends MainModel
       // et rediriger notre utilisateur vers la page de login
       unset($_SESSION["phytostore_logged_user"]);
       session_destroy();
-      $this->redirect("login.php");
+      $this->redirect("cover.php");
     }
   }
 

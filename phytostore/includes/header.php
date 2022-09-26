@@ -9,7 +9,7 @@ $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
 $whoops->register();
 $user = getLoggedUser();
 //on intancie notre Class Database
-$database =new Database();
+$database = new Database();
 // puis on invoque notre méthode connection()
 $pdo = $database->connection();
 ?>
@@ -38,7 +38,7 @@ $pdo = $database->connection();
 </head>
 
 <body class="bg-slate-50">
-    <nav id="nav" class="shadow-md py-5 bg-white">
+    <nav id="nav" class="shadow-md py-3 bg-white">
         <div class="container mx-auto flex justify-between items-center">
 
             <a href="index.php" alt="Phyto_BCD_logo">
@@ -49,7 +49,7 @@ $pdo = $database->connection();
                 </div>
             </a>
 
-            <ul class="list-none flex gap-6 justify-between items-center">
+            <ul id="navu" class="list-none flex gap-6 justify-between items-center">
                 <?php if ($user) : ?>
                     <?php if ($user["role"] === "admin") : ?>
                         <li>
@@ -70,7 +70,7 @@ $pdo = $database->connection();
                             <!-- animation slide -->
                             <h1 class='at-item6'>
                                 <a class="text-xl text-center text-green-600 hover:text-green-700" href="profile.php">
-                                    <i class="fa-solid fa-user mr-2"></i> Bonjour  <?= $user["firstname"] ?>
+                                    <i class="fa-solid fa-user mr-2"></i> Bonjour <?= $user["firstname"] ?>
                                 </a>
                             </h1>
                         </div>
