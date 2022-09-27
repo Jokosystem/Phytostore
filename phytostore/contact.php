@@ -13,7 +13,7 @@ require_once "./includes/header.php";
     Christophe J. : jockchristophe@gmail.com <br />
     Driss M. : driss.mallali@yahoo.com</p>
 <br />
-<h2 class="text-center mb-20">Avec nos remerciments, à PHILIANCE...</h2>
+<h2 class="text-center mb-20">Avec nos remerciements, à PHILIANCE...</h2>
 
 
 <?php

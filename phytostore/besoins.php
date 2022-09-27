@@ -17,7 +17,11 @@ $effets = $stmt->fetchAll(PDO::FETCH_CLASS, "Effet");
 
 ?>
 
-<h1 class="text-center text-4xl text-green-600 mb-20">Mes Besoins</h1>
+<div class='at-container8'>
+  <div class='at-item8'>
+    <h1 class="text-center text-4xl text-green-600 mb-20">Mes Besoins</h1>
+  </div>
+</div>
 <hr>
 <br />
 
