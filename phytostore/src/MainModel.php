@@ -12,10 +12,9 @@ class MainModel
     {
         $database = new Database();
         $this->pdo = $database->connection();
-        
     }
 
-    protected function redirect($page= "http://localhost/phytostore/phytostore/index.php")
+    protected function redirect($page = "http://localhost/phytostore/phytostore/index.php")
     {
         // on redirige vers la page d'acceuil
         echo "<script type='text/javascript'>window.top.location='$page';</script>";

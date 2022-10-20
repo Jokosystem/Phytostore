@@ -27,7 +27,7 @@
         </div>
     </div>
     <div class="w-1/3" id="footer2">
-        <div class="text-center text-white text-xl pt-5">
+        <div class="text-center text-white text-xl pt-5 pb-20">
             <a class="hover:text-yellow-500" href="#nav">
                 <h2><i class="fa-solid fa-arrow-up"></i> Haut de page <i class="fa-solid fa-arrow-up"></i></h2>
             </a>

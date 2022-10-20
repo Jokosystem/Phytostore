@@ -31,7 +31,7 @@ $effets = $stmt->fetchAll(PDO::FETCH_CLASS, "Effet");
       <div class="bg-white flex justify-between items-center shadow-sm mb-3 p-6">
         <img id="imgcard" class="w-80" src="<?= $effet->getImage() ?>" alt="effet">
         <div class="w-1/3">
-          <h3 class="text-4xl font-light text-orange-500"><?= $effet->getName() ?></h3>
+          <h3 class="text-4xl font-bold text-orange-500"><?= $effet->getName() ?></h3>
           </br>
           <div>
             <a href="index.php?id=<?= $effet->getId() ?>" class="py-2 px-3 rounded justify-end bg-green-400 hover:bg-green-600 text-white">

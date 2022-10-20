@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <h4 class="text-2xl font-light text-green-500"><?= $plant->getPrice() ?> €</h4>
           </div>
           <div>
-            <p class="font-semibold text-green-600">Quantité: <?= $plant->getQuantity() ?></p>
+            <p class="font-semibold text-green-600">Quantité : <?= $plant->getQuantity() ?></p>
             <div class="flex items-center gap-6 mt-3">
               <form method="post" action="basket.php?plant_id=<?= $plant->getId() ?>&action=remove">
                 <button>
@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <?php endif ?>
 
     <?php if ($basket) : ?>
-      <h2 class="text-right text-4xl text-green-700 font-light">Total : <span id="totalPrice"><?= $total ?></span> €</h2>
+      <h2 class="text-right text-4xl text-green-600 font-light">Total : <span id="totalPrice"><?= $total ?></span> €</h2>
   </div>
   <div class="w-1/3 mt-20"><a href="#" class="ml-20 py-2 px-4 rounded bg-green-500 hover:bg-green-700 text-white">
       <i class="fa-solid fa-cart-shopping mr-2"></i> Passer Commande
@@ -68,10 +68,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   </div>
 <?php endif ?>
 </section>
-
 <script>
   const price = Number(document.querySelector("#totalPrice").innerText)
   document.querySelector("#totalPrice").innerText = price.toFixed(2)
 </script>
 
-<?php require_once "./includes/footer.php";
+<?php 
+require_once "./includes/footer.php"; ?>

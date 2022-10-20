@@ -42,23 +42,23 @@ foreach ($effets as $effet) {
         </div>
 
         <div class="w-2/3">
-            <h2 class="text-4xl font-light text-orange-500"><?= $effetname ?></h2>
+            <h2 class="text-4xl font-bold text-orange-500"><?= $effetname ?></h2>
             <br />
             <h3 class="text-4xl text-green-500"><?= $plant->getPrice() ?> €</h3>
 
             <div class="mt-10">
-                <p class="font-bold text-2xl text-green-700">Description</p>
+                <p class="font-bold text-3xl text-green-700">Description</p>
                 <hr class="my-6" />
-                <p><?= $plant->getDescription() ?></p>
+                <p class="text-2xl"><?= $plant->getDescription() ?></p>
             </div>
 
             <?php if ($user) : ?>
                 <div class="mt-10 flex items-center gap-3">
-                    <a class="text-gray-500 hover:text-red-500" href="">
+                    <a class="text-2xl text-gray-500 hover:text-red-500" href="#">
                         <i class="fa-solid fa-heart mr-2"></i> J'aime
                     </a>
                     <form method="post">
-                        <button class="text-orange-400 hover:text-orange-600" name="add">
+                        <button class="text-2xl text-orange-400 hover:text-orange-600" name="add">
                             <i class="fa-solid fa-cart-arrow-down mr-2"></i> Ajouter au panier
                         </button>
                     </form>
@@ -78,14 +78,14 @@ foreach ($effets as $effet) {
                 <?php endif ?>
             <?php else : ?>
                 <div class="mt-10">
-                    <a class="text-orange-400 hover:text-orange-600" href="register.php">
+                    <a class="text-orange-400 hover:text-orange-600" href="login.php">
                         <i class="fa-solid fa-cart-arrow-down mr-2"></i> Ajouter au panier
                     </a>
                 </div>
             <?php endif ?>
 
             <div class="mt-10 text-right">
-                <a class="text-green-700 hover:text-red-700" href="index.php">
+                <a class="text-2xl text-green-700 hover:text-red-700" href="index.php">
                     <i class="fa-solid fa-backward mr-2"></i> Retour
                 </a>
             </div>

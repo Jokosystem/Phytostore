@@ -2,7 +2,12 @@
 require_once "./src/Phyto.php";
 require_once "./includes/header.php";
 ?>
-<h1 class="text-4xl text-green-600 text-center mb-5">Le Blog</h1>
+
+<div class='at-container8'>
+    <div class='at-item8'>
+        <h1 class="text-4xl text-green-600 text-center mb-5">Le Blog</h1>
+    </div>
+</div>
 <br />
 <marquee class="text-3xl text-green-700 mb-10" behavior="alternate" direction="right">Retrouvez nos partenaires en Phytothérapie !</marquee>
 <section>
@@ -91,7 +96,7 @@ require_once "./includes/header.php";
 </section>
 <br />
 <hr>
-<!--Zone de commentaires utilisateur -->
+<!--Zone de commentaires utilisateur à venir -->
 <!-- <form action="post">
     <fieldset>
         <legend class="text-center text-green-600 mt-2">
